@@ -1,0 +1,2 @@
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/CMakeFiles/CheckOBJC/CMakeFiles/edit_cache.dir
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/CMakeFiles/CheckOBJC/CMakeFiles/rebuild_cache.dir

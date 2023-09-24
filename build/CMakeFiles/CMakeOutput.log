@@ -1,0 +1,4736 @@
+The system is: Darwin - 22.6.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-q8iWKI
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3299c && [1/2] Building C object CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o
+Apple clang version 15.0.0 (clang-1500.0.40.1)
+Target: arm64-apple-darwin22.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-q8iWKI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -D "CMAKE_INTDIR=\"Debug\"" -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-q8iWKI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin22.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable Debug/cmTC_3299c
+Apple clang version 15.0.0 (clang-1500.0.40.1)
+Target: arm64-apple-darwin22.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.5.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o Debug/cmTC_3299c -L. -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:dyld-1015.7
+BUILD 18:48:48 Aug 22 2023
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+Library search paths:
+	.
+	/opt/homebrew/lib
+Framework search paths:
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-q8iWKI]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3299c && [1/2] Building C object CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+  ignore line: [Target: arm64-apple-darwin22.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-q8iWKI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -D "CMAKE_INTDIR=\"Debug\"" -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-q8iWKI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin22.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable Debug/cmTC_3299c]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+  ignore line: [Target: arm64-apple-darwin22.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.5.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o Debug/cmTC_3299c -L. -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.5.0] ==> ignore
+    arg [14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [Debug/cmTC_3299c] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_3299c.dir/Debug/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;.;/opt/homebrew/lib]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [.] ==> [/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/lib;/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib]
+  implicit fwks: []
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jkiIby
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8ea4d && [1/2] Building CXX object CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o
+Apple clang version 15.0.0 (clang-1500.0.40.1)
+Target: arm64-apple-darwin22.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jkiIby -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -D "CMAKE_INTDIR=\"Debug\"" -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jkiIby -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin22.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking CXX executable Debug/cmTC_8ea4d
+Apple clang version 15.0.0 (clang-1500.0.40.1)
+Target: arm64-apple-darwin22.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.5.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o Debug/cmTC_8ea4d -L. -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:dyld-1015.7
+BUILD 18:48:48 Aug 22 2023
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+Library search paths:
+	.
+	/opt/homebrew/lib
+Framework search paths:
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jkiIby]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8ea4d && [1/2] Building CXX object CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+  ignore line: [Target: arm64-apple-darwin22.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jkiIby -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -D "CMAKE_INTDIR=\"Debug\"" -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jkiIby -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin22.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable Debug/cmTC_8ea4d]
+  ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+  ignore line: [Target: arm64-apple-darwin22.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.5.0 14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o Debug/cmTC_8ea4d -L. -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.5.0] ==> ignore
+    arg [14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [Debug/cmTC_8ea4d] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_8ea4d.dir/Debug/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;.;/opt/homebrew/lib]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [.] ==> [/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/lib;/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2]
+  implicit fwks: []
+
+
+Looking for a OBJC compiler passed with the following output:
+-- The OBJC compiler identification is AppleClang 15.0.0.15000040
+-- Detecting OBJC compiler ABI info
+-- Detecting OBJC compiler ABI info - done
+-- Check for working OBJC compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang - skipped
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/CMakeFiles/CheckOBJC
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-FEsmiZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c1b59 && [1/2] Building C object CMakeFiles/cmTC_c1b59.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_c1b59
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kOVCGu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8ca4e && [1/2] Building C object CMakeFiles/cmTC_8ca4e.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_8ca4e
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fM58bK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_22063 && [1/2] Building C object CMakeFiles/cmTC_22063.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_22063
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-xhgUCw
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_88e9d && [1/2] Building C object CMakeFiles/cmTC_88e9d.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_88e9d
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Zy2wsx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6522f && [1/2] Building C object CMakeFiles/cmTC_6522f.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_6522f
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z);
+        return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sdST21
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_56ea6 && [1/2] Building C object CMakeFiles/cmTC_56ea6.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_56ea6
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iL8F2I
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b9b7f && [1/2] Building C object CMakeFiles/cmTC_b9b7f.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_b9b7f
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-AaYXUi
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0c62e && [1/2] Building C object CMakeFiles/cmTC_0c62e.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_0c62e
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_WNO_ERROR_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vZGOVG
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_061ff && [1/2] Building C object CMakeFiles/cmTC_061ff.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_061ff
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sSkYIq
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d9270 && [1/2] Building C object CMakeFiles/cmTC_d9270.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_d9270
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-b5oOkJ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d8e3 && [1/2] Building C object CMakeFiles/cmTC_4d8e3.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_4d8e3
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-D1YsS4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_33144 && [1/2] Building C object CMakeFiles/cmTC_33144.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_33144
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-IdOKwX
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ce85c && [1/2] Building C object CMakeFiles/cmTC_ce85c.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_ce85c
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-EZzRrq
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1eb79 && [1/2] Building C object CMakeFiles/cmTC_1eb79.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_1eb79
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-M9MVGD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bec25 && [1/2] Building C object CMakeFiles/cmTC_bec25.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_bec25
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kVtnbo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_06f29 && [1/2] Building C object CMakeFiles/cmTC_06f29.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_06f29
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-OAvbbA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e982c && [1/2] Building C object CMakeFiles/cmTC_e982c.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_e982c
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-pSIEqv
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_25a37 && [1/2] Building C object CMakeFiles/cmTC_25a37.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_25a37
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-XRzC3F
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_56f15 && [1/2] Building C object CMakeFiles/cmTC_56f15.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_56f15
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4y5guu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e0ca1 && [1/2] Building C object CMakeFiles/cmTC_e0ca1.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_e0ca1
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-7DBQt4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c1b27 && [1/2] Building C object CMakeFiles/cmTC_c1b27.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_c1b27
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9Bwqss
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8b7cb && [1/2] Building C object CMakeFiles/cmTC_8b7cb.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_8b7cb
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-J6hOP4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c09e0 && [1/2] Building C object CMakeFiles/cmTC_c09e0.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_c09e0
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JVKBNV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_887fd && [1/2] Building C object CMakeFiles/cmTC_887fd.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_887fd
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-973zj6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_805c9 && [1/2] Building C object CMakeFiles/cmTC_805c9.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_805c9
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Q7ntXt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fc097 && [1/2] Building C object CMakeFiles/cmTC_fc097.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_fc097
+
+
+
+Determining if the include file libunwind.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-g0YgGc
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c17b0 && [1/2] Building C object CMakeFiles/cmTC_c17b0.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_c17b0
+
+
+
+Determining if files stddef.h;stdarg.h;stdlib.h;string.h;stdio.h;wchar.h;float.h exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kZxdX8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_76b72 && [1/2] Building C object CMakeFiles/cmTC_76b72.dir/Debug/STDC_HEADERS.c.o
+[2/2] Linking C executable Debug/cmTC_76b72
+
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2D6gFq
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_afc4d && [1/2] Building C object CMakeFiles/cmTC_afc4d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_afc4d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kkxKhL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_50f1f && [1/2] Building C object CMakeFiles/cmTC_50f1f.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_50f1f
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main(void) { return 0; }
+
+Determining if the strtod exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-FJOtpW
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_853fc && [1/2] Building C object CMakeFiles/cmTC_853fc.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_853fc
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod
+  return ((int*)(&strtod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-aGTFu4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e4fee && [1/2] Building C object CMakeFiles/cmTC_e4fee.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_e4fee
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the calloc exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wFyAVo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6bbc8 && [1/2] Building C object CMakeFiles/cmTC_6bbc8.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_6bbc8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef calloc
+  return ((int*)(&calloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realloc exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Xe0TDn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ec9d0 && [1/2] Building C object CMakeFiles/cmTC_ec9d0.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_ec9d0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the free exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-gsDsnx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9f7ee && [1/2] Building C object CMakeFiles/cmTC_9f7ee.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_9f7ee
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef free
+  return ((int*)(&free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-BsnxXl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_767f0 && [1/2] Building C object CMakeFiles/cmTC_767f0.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_767f0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jbj91x
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_46b87 && [1/2] Building C object CMakeFiles/cmTC_46b87.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_46b87
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the putenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-64kZlb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_da423 && [1/2] Building C object CMakeFiles/cmTC_da423.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_da423
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-s3Zuhx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b3a23 && [1/2] Building C object CMakeFiles/cmTC_b3a23.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_b3a23
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bsearch exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-OLZJRA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_153f1 && [1/2] Building C object CMakeFiles/cmTC_153f1.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_153f1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bsearch
+  return ((int*)(&bsearch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the qsort exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-3gZCI3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_141f1 && [1/2] Building C object CMakeFiles/cmTC_141f1.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_141f1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef qsort
+  return ((int*)(&qsort))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the abs exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-htGo3a
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_092ee && [1/2] Building C object CMakeFiles/cmTC_092ee.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_092ee
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef abs
+  return ((int*)(&abs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bcopy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JqDRwa
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9cef1 && [1/2] Building C object CMakeFiles/cmTC_9cef1.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_9cef1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memset exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iVsZfY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_085e1 && [1/2] Building C object CMakeFiles/cmTC_085e1.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_085e1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcpy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-81dYL7
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_11e19 && [1/2] Building C object CMakeFiles/cmTC_11e19.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_11e19
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memmove exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-CNJeqn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_796d6 && [1/2] Building C object CMakeFiles/cmTC_796d6.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_796d6
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-DpQ4FT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_48f28 && [1/2] Building C object CMakeFiles/cmTC_48f28.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_48f28
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcmp
+  return ((int*)(&memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlen exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-CPPXmY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_59897 && [1/2] Building C object CMakeFiles/cmTC_59897.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_59897
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlen
+  return ((int*)(&strlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcpy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-cYMKNB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9406b && [1/2] Building C object CMakeFiles/cmTC_9406b.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_9406b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcat exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Gb7Zfo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_254ba && [1/2] Building C object CMakeFiles/cmTC_254ba.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_254ba
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the index exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-pFHQV8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5622c && [1/2] Building C object CMakeFiles/cmTC_5622c.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_5622c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rindex exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-B8mVvK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fd993 && [1/2] Building C object CMakeFiles/cmTC_fd993.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_fd993
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strchr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-yowgE6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_037c5 && [1/2] Building C object CMakeFiles/cmTC_037c5.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_037c5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strrchr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-oaFyU3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e5c6b && [1/2] Building C object CMakeFiles/cmTC_e5c6b.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_e5c6b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strstr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sARIuj
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_61788 && [1/2] Building C object CMakeFiles/cmTC_61788.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_61788
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-AEPqJR
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2fb3a && [1/2] Building C object CMakeFiles/cmTC_2fb3a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_2fb3a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtol exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iqf3w6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0f7fa && [1/2] Building C object CMakeFiles/cmTC_0f7fa.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_0f7fa
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoul exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6rujfl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_34a2f && [1/2] Building C object CMakeFiles/cmTC_34a2f.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_34a2f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2P38sD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_63cbe && [1/2] Building C object CMakeFiles/cmTC_63cbe.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_63cbe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoull exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-M52dJ1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_10ed5 && [1/2] Building C object CMakeFiles/cmTC_10ed5.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_10ed5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atoi exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sS4GPb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1049e && [1/2] Building C object CMakeFiles/cmTC_1049e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_1049e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atoi
+  return ((int*)(&atoi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atof exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kIK2bf
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_73e2e && [1/2] Building C object CMakeFiles/cmTC_73e2e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_73e2e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atof
+  return ((int*)(&atof))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-zGOr4v
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_63c91 && [1/2] Building C object CMakeFiles/cmTC_63c91.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_63c91
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-geq7kh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ff70a && [1/2] Building C object CMakeFiles/cmTC_ff70a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_ff70a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmp
+  return ((int*)(&strncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fEUV5V
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5a1a8 && [1/2] Building C object CMakeFiles/cmTC_5a1a8.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_5a1a8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-H6KMKm
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d3ed8 && [1/2] Building C object CMakeFiles/cmTC_d3ed8.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_d3ed8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasestr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Vx0sfu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6352e && [1/2] Building C object CMakeFiles/cmTC_6352e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_6352e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcscmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-yoeYTf
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_63a83 && [1/2] Building C object CMakeFiles/cmTC_63a83.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_63a83
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscmp
+  return ((int*)(&wcscmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsdup exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-cnrFzt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e335e && [1/2] Building C object CMakeFiles/cmTC_e335e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_e335e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslcat exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UyiDrK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_45d77 && [1/2] Building C object CMakeFiles/cmTC_45d77.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_45d77
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslcpy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ww2ZR3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_01c3a && [1/2] Building C object CMakeFiles/cmTC_01c3a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_01c3a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslen exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-yiRL60
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_72537 && [1/2] Building C object CMakeFiles/cmTC_72537.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_72537
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Looking for a OBJC compiler passed with the following output:
+-- The OBJC compiler identification is AppleClang 15.0.0.15000040
+-- Detecting OBJC compiler ABI info
+-- Detecting OBJC compiler ABI info - done
+-- Check for working OBJC compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang - skipped
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/CMakeFiles/CheckOBJC
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-f5OO6M
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5ad26 && [1/2] Building C object CMakeFiles/cmTC_5ad26.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_5ad26
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Q84Nxi
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7d475 && [1/2] Building C object CMakeFiles/cmTC_7d475.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_7d475
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-l1PVv7
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_246b4 && [1/2] Building C object CMakeFiles/cmTC_246b4.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_246b4
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-O3H4hA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b0a96 && [1/2] Building C object CMakeFiles/cmTC_b0a96.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_b0a96
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-SKuH5f
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bda01 && [1/2] Building C object CMakeFiles/cmTC_bda01.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_bda01
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z);
+        return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4yMGyL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_df307 && [1/2] Building C object CMakeFiles/cmTC_df307.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_df307
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-cHavkl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bb058 && [1/2] Building C object CMakeFiles/cmTC_bb058.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_bb058
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UzfBlC
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_00077 && [1/2] Building C object CMakeFiles/cmTC_00077.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_00077
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_WNO_ERROR_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-lOpVgY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6d897 && [1/2] Building C object CMakeFiles/cmTC_6d897.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_6d897
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-V74OCl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e00c7 && [1/2] Building C object CMakeFiles/cmTC_e00c7.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_e00c7
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PYkMBn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a35dc && [1/2] Building C object CMakeFiles/cmTC_a35dc.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_a35dc
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-T6Gtzb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_db66c && [1/2] Building C object CMakeFiles/cmTC_db66c.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_db66c
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-dEarq6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3baeb && [1/2] Building C object CMakeFiles/cmTC_3baeb.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_3baeb
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kqxhjd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_205e5 && [1/2] Building C object CMakeFiles/cmTC_205e5.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_205e5
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vkXyPe
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f3ef2 && [1/2] Building C object CMakeFiles/cmTC_f3ef2.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_f3ef2
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ER2iMU
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4ab85 && [1/2] Building C object CMakeFiles/cmTC_4ab85.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_4ab85
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iO4HQG
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_69c15 && [1/2] Building C object CMakeFiles/cmTC_69c15.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_69c15
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-eNHsu6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c0f5c && [1/2] Building C object CMakeFiles/cmTC_c0f5c.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_c0f5c
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-G0LvoX
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ee6f7 && [1/2] Building C object CMakeFiles/cmTC_ee6f7.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_ee6f7
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iITY3P
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1df1f && [1/2] Building C object CMakeFiles/cmTC_1df1f.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_1df1f
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8kpmaV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8a1f9 && [1/2] Building C object CMakeFiles/cmTC_8a1f9.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_8a1f9
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-xs0Vyv
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8a9dd && [1/2] Building C object CMakeFiles/cmTC_8a9dd.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_8a9dd
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-YkXOpp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0574e && [1/2] Building C object CMakeFiles/cmTC_0574e.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_0574e
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4bjg7e
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_baaef && [1/2] Building C object CMakeFiles/cmTC_baaef.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_baaef
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-mtN4iC
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_585a6 && [1/2] Building C object CMakeFiles/cmTC_585a6.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_585a6
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-1SOFz0
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5c39b && [1/2] Building C object CMakeFiles/cmTC_5c39b.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_5c39b
+
+
+
+Determining if the include file libunwind.h exists passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sIrXtw
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_93dcf && [1/2] Building C object CMakeFiles/cmTC_93dcf.dir/Debug/CheckIncludeFile.c.o
+[2/2] Linking C executable Debug/cmTC_93dcf
+
+
+
+Determining if files stddef.h;stdarg.h;stdlib.h;string.h;stdio.h;wchar.h;float.h exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-GMnRY7
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_87253 && [1/2] Building C object CMakeFiles/cmTC_87253.dir/Debug/STDC_HEADERS.c.o
+[2/2] Linking C executable Debug/cmTC_87253
+
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vSa4kV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_de226 && [1/2] Building C object CMakeFiles/cmTC_de226.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_de226
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ulz4vl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3f8bf && [1/2] Building C object CMakeFiles/cmTC_3f8bf.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_3f8bf
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main(void) { return 0; }
+
+Determining if the strtod exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-DF7HWJ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c0928 && [1/2] Building C object CMakeFiles/cmTC_c0928.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_c0928
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod
+  return ((int*)(&strtod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-FNiLX1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7d71e && [1/2] Building C object CMakeFiles/cmTC_7d71e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_7d71e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the calloc exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vxQtOc
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_048ec && [1/2] Building C object CMakeFiles/cmTC_048ec.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_048ec
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef calloc
+  return ((int*)(&calloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realloc exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-01R6TS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_98e22 && [1/2] Building C object CMakeFiles/cmTC_98e22.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_98e22
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the free exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kTnq7O
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7817e && [1/2] Building C object CMakeFiles/cmTC_7817e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_7817e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef free
+  return ((int*)(&free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-KbZyLk
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_22fca && [1/2] Building C object CMakeFiles/cmTC_22fca.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_22fca
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-cfB3rT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f867a && [1/2] Building C object CMakeFiles/cmTC_f867a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f867a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the putenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-BE95NB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2a7b5 && [1/2] Building C object CMakeFiles/cmTC_2a7b5.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_2a7b5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-dNGJ92
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_da802 && [1/2] Building C object CMakeFiles/cmTC_da802.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_da802
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bsearch exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fhUdMe
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_305a0 && [1/2] Building C object CMakeFiles/cmTC_305a0.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_305a0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bsearch
+  return ((int*)(&bsearch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the qsort exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iFIw75
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9f2ba && [1/2] Building C object CMakeFiles/cmTC_9f2ba.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_9f2ba
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef qsort
+  return ((int*)(&qsort))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the abs exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-teT1ta
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7572d && [1/2] Building C object CMakeFiles/cmTC_7572d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_7572d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef abs
+  return ((int*)(&abs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bcopy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UgEUZu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_03bd8 && [1/2] Building C object CMakeFiles/cmTC_03bd8.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_03bd8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memset exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-5HImuN
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_778ec && [1/2] Building C object CMakeFiles/cmTC_778ec.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_778ec
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcpy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-OzSOqF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_324d8 && [1/2] Building C object CMakeFiles/cmTC_324d8.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_324d8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memmove exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WlweMd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cb6a0 && [1/2] Building C object CMakeFiles/cmTC_cb6a0.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_cb6a0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-z1zEjx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f7d7a && [1/2] Building C object CMakeFiles/cmTC_f7d7a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f7d7a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcmp
+  return ((int*)(&memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlen exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-IqY0YV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_376f3 && [1/2] Building C object CMakeFiles/cmTC_376f3.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_376f3
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlen
+  return ((int*)(&strlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcpy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8BjIW0
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cd69b && [1/2] Building C object CMakeFiles/cmTC_cd69b.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_cd69b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcat exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sFupQc
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e717e && [1/2] Building C object CMakeFiles/cmTC_e717e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_e717e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the index exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-K0U229
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_533bf && [1/2] Building C object CMakeFiles/cmTC_533bf.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_533bf
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rindex exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ECuuyw
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bf43c && [1/2] Building C object CMakeFiles/cmTC_bf43c.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_bf43c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strchr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-qVVjCb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_01b95 && [1/2] Building C object CMakeFiles/cmTC_01b95.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_01b95
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strrchr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-A27fOv
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_30b48 && [1/2] Building C object CMakeFiles/cmTC_30b48.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_30b48
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strstr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-NxhElz
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8b19a && [1/2] Building C object CMakeFiles/cmTC_8b19a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_8b19a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-yCXK0f
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_33b97 && [1/2] Building C object CMakeFiles/cmTC_33b97.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_33b97
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtol exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-favyVj
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3d9c1 && [1/2] Building C object CMakeFiles/cmTC_3d9c1.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_3d9c1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoul exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-cpKGXP
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a895b && [1/2] Building C object CMakeFiles/cmTC_a895b.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_a895b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-w42hLd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_67181 && [1/2] Building C object CMakeFiles/cmTC_67181.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_67181
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoull exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-MxXFQ8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3a88c && [1/2] Building C object CMakeFiles/cmTC_3a88c.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_3a88c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atoi exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tVxfe4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_08a1f && [1/2] Building C object CMakeFiles/cmTC_08a1f.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_08a1f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atoi
+  return ((int*)(&atoi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atof exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-v5VyUi
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a2f36 && [1/2] Building C object CMakeFiles/cmTC_a2f36.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_a2f36
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atof
+  return ((int*)(&atof))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-o4kkEa
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1df6b && [1/2] Building C object CMakeFiles/cmTC_1df6b.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_1df6b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6Hil5F
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_86d6a && [1/2] Building C object CMakeFiles/cmTC_86d6a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_86d6a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmp
+  return ((int*)(&strncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ovqHJR
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2991f && [1/2] Building C object CMakeFiles/cmTC_2991f.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_2991f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-xYRBcz
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_74c5a && [1/2] Building C object CMakeFiles/cmTC_74c5a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_74c5a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasestr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JT3b7G
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_918ab && [1/2] Building C object CMakeFiles/cmTC_918ab.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_918ab
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcscmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6vWoeA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8ab3b && [1/2] Building C object CMakeFiles/cmTC_8ab3b.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_8ab3b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscmp
+  return ((int*)(&wcscmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsdup exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-zZhXI8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f010d && [1/2] Building C object CMakeFiles/cmTC_f010d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f010d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslcat exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JynQ87
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f924b && [1/2] Building C object CMakeFiles/cmTC_f924b.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f924b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslcpy exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-bmNwM9
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_247c1 && [1/2] Building C object CMakeFiles/cmTC_247c1.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_247c1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslen exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-amjE6C
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f1393 && [1/2] Building C object CMakeFiles/cmTC_f1393.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f1393
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsncmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-XrgCSM
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9c68d && [1/2] Building C object CMakeFiles/cmTC_9c68d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_9c68d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncmp
+  return ((int*)(&wcsncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsstr exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Mpb0EQ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_417fd && [1/2] Building C object CMakeFiles/cmTC_417fd.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_417fd
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsstr
+  return ((int*)(&wcsstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcscasecmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-S92YiF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e8859 && [1/2] Building C object CMakeFiles/cmTC_e8859.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_e8859
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsncasecmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-435xwx
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ef9e6 && [1/2] Building C object CMakeFiles/cmTC_ef9e6.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_ef9e6
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sscanf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UwjyrT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f7f41 && [1/2] Building C object CMakeFiles/cmTC_f7f41.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f7f41
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sscanf
+  return ((int*)(&sscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsscanf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-c5YaEK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d767d && [1/2] Building C object CMakeFiles/cmTC_d767d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_d767d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wPMDAm
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b3565 && [1/2] Building C object CMakeFiles/cmTC_b3565.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_b3565
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fseeko exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-izXWCf
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f5f31 && [1/2] Building C object CMakeFiles/cmTC_f5f31.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f5f31
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _Exit exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-mzBkQY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_142c9 && [1/2] Building C object CMakeFiles/cmTC_142c9.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_142c9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Exit
+  return ((int*)(&_Exit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Bv9bYT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7418a && [1/2] Building C object CMakeFiles/cmTC_7418a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_7418a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setjmp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-BwyLB7
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bb8f5 && [1/2] Building C object CMakeFiles/cmTC_bb8f5.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_bb8f5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setjmp
+  return ((int*)(&setjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nanosleep exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-LRKqdb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7f406 && [1/2] Building C object CMakeFiles/cmTC_7f406.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_7f406
+
+
+File CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-rGOsFt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a7e6a && [1/2] Building C object CMakeFiles/cmTC_a7e6a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_a7e6a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysctlbyname exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-oKlZAq
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f7ffb && [1/2] Building C object CMakeFiles/cmTC_f7ffb.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f7ffb
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the poll exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-82IFAW
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4bf60 && [1/2] Building C object CMakeFiles/cmTC_4bf60.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_4bf60
+
+
+File CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-t3koSA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_af716 && [1/2] Building C object CMakeFiles/cmTC_af716.dir/Debug/CheckFunctionExists.c.o
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-t3koSA/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:2:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-t3koSA/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:2:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable Debug/cmTC_af716
+
+
+
+Determining if the atan exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4j1U9n
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8d1a9 && [1/2] Building C object CMakeFiles/cmTC_8d1a9.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_8d1a9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan
+  return ((int*)(&atan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atan2 exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WJoQ5E
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d105f && [1/2] Building C object CMakeFiles/cmTC_d105f.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_d105f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2
+  return ((int*)(&atan2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atanf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-rR2Ucu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_873f9 && [1/2] Building C object CMakeFiles/cmTC_873f9.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_873f9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atanf
+  return ((int*)(&atanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atan2f exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-1ZrqRM
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4e8b7 && [1/2] Building C object CMakeFiles/cmTC_4e8b7.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_4e8b7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2f
+  return ((int*)(&atan2f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ceil exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-bibrtN
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_87de7 && [1/2] Building C object CMakeFiles/cmTC_87de7.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_87de7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceil
+  return ((int*)(&ceil))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ceilf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-k1WCnA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_034d1 && [1/2] Building C object CMakeFiles/cmTC_034d1.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_034d1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the copysign exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-b85vSs
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2add0 && [1/2] Building C object CMakeFiles/cmTC_2add0.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_2add0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysign
+  return ((int*)(&copysign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the copysignf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WXztWm
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_af01d && [1/2] Building C object CMakeFiles/cmTC_af01d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_af01d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysignf
+  return ((int*)(&copysignf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cos exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-VYuJIi
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ba128 && [1/2] Building C object CMakeFiles/cmTC_ba128.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_ba128
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cos
+  return ((int*)(&cos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cosf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UlnnFI
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0c287 && [1/2] Building C object CMakeFiles/cmTC_0c287.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_0c287
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cosf
+  return ((int*)(&cosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the exp exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iDe4yL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_43da5 && [1/2] Building C object CMakeFiles/cmTC_43da5.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_43da5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the expf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sKUQxD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9832e && [1/2] Building C object CMakeFiles/cmTC_9832e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_9832e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef expf
+  return ((int*)(&expf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fabs exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Cz6zT1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d5d1d && [1/2] Building C object CMakeFiles/cmTC_d5d1d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_d5d1d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabs
+  return ((int*)(&fabs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fabsf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-hUu9q4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e7f8c && [1/2] Building C object CMakeFiles/cmTC_e7f8c.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_e7f8c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabsf
+  return ((int*)(&fabsf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the floor exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-GD3CeP
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_407e5 && [1/2] Building C object CMakeFiles/cmTC_407e5.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_407e5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floor
+  return ((int*)(&floor))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the floorf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6TFj7s
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8ac23 && [1/2] Building C object CMakeFiles/cmTC_8ac23.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_8ac23
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmod exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Uvd6T1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_65878 && [1/2] Building C object CMakeFiles/cmTC_65878.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_65878
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmod
+  return ((int*)(&fmod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmodf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-lz4UBb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2c910 && [1/2] Building C object CMakeFiles/cmTC_2c910.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_2c910
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2oWX85
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d4979 && [1/2] Building C object CMakeFiles/cmTC_d4979.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_d4979
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the logf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-csGetk
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_54488 && [1/2] Building C object CMakeFiles/cmTC_54488.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_54488
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef logf
+  return ((int*)(&logf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log10 exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-BgeBuu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1bc06 && [1/2] Building C object CMakeFiles/cmTC_1bc06.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_1bc06
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log10f exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sqb64h
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ba821 && [1/2] Building C object CMakeFiles/cmTC_ba821.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_ba821
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10f
+  return ((int*)(&log10f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lround exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Stxq8l
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cd7f9 && [1/2] Building C object CMakeFiles/cmTC_cd7f9.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_cd7f9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lround
+  return ((int*)(&lround))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lroundf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-aFEFYZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9c392 && [1/2] Building C object CMakeFiles/cmTC_9c392.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_9c392
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lroundf
+  return ((int*)(&lroundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pow exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Oo09hc
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_30d9f && [1/2] Building C object CMakeFiles/cmTC_30d9f.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_30d9f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the powf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-uAT8Zv
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f8370 && [1/2] Building C object CMakeFiles/cmTC_f8370.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_f8370
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef powf
+  return ((int*)(&powf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the round exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-m1jD6T
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_74b04 && [1/2] Building C object CMakeFiles/cmTC_74b04.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_74b04
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the roundf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PoB5ip
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cdc08 && [1/2] Building C object CMakeFiles/cmTC_cdc08.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_cdc08
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef roundf
+  return ((int*)(&roundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the scalbn exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-cwytGN
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_07a71 && [1/2] Building C object CMakeFiles/cmTC_07a71.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_07a71
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbn
+  return ((int*)(&scalbn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the scalbnf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-rfmcH6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ec2f5 && [1/2] Building C object CMakeFiles/cmTC_ec2f5.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_ec2f5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbnf
+  return ((int*)(&scalbnf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sin exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2dqd9L
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ab5a7 && [1/2] Building C object CMakeFiles/cmTC_ab5a7.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_ab5a7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sin
+  return ((int*)(&sin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sinf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-pq02DY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e4320 && [1/2] Building C object CMakeFiles/cmTC_e4320.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_e4320
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sinf
+  return ((int*)(&sinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrt exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-EpRxKW
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_89e2d && [1/2] Building C object CMakeFiles/cmTC_89e2d.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_89e2d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrt
+  return ((int*)(&sqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tzbKx8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_981e7 && [1/2] Building C object CMakeFiles/cmTC_981e7.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_981e7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the tan exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iNq8T3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7976a && [1/2] Building C object CMakeFiles/cmTC_7976a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_7976a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tan
+  return ((int*)(&tan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the tanf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-XXMCyK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5c19f && [1/2] Building C object CMakeFiles/cmTC_5c19f.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_5c19f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tanf
+  return ((int*)(&tanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the acos exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-NV2tF4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d6f8a && [1/2] Building C object CMakeFiles/cmTC_d6f8a.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_d6f8a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acos
+  return ((int*)(&acos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the acosf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-5MeYOb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_18f5e && [1/2] Building C object CMakeFiles/cmTC_18f5e.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_18f5e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acosf
+  return ((int*)(&acosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the asin exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-MXmr9B
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_687a2 && [1/2] Building C object CMakeFiles/cmTC_687a2.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_687a2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asin
+  return ((int*)(&asin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the asinf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PqnUlg
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3f9e2 && [1/2] Building C object CMakeFiles/cmTC_3f9e2.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_3f9e2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asinf
+  return ((int*)(&asinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the trunc exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-GQRF7H
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_af168 && [1/2] Building C object CMakeFiles/cmTC_af168.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_af168
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef trunc
+  return ((int*)(&trunc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the truncf exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JySQz6
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_77eb3 && [1/2] Building C object CMakeFiles/cmTC_77eb3.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_77eb3
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef truncf
+  return ((int*)(&truncf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-v8mUvn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_024d4 && [1/2] Building C object CMakeFiles/cmTC_024d4.dir/Debug/CheckFunctionExists.c.o
+[2/2] Linking C executable Debug/cmTC_024d4
+
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PTQ6X4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bb33a && [1/2] Building C object CMakeFiles/cmTC_bb33a.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_bb33a
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-uoh9Nb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_209b0 && [1/2] Building C object CMakeFiles/cmTC_209b0.dir/Debug/CheckSymbolExists.c.o
+[2/2] Linking C executable Debug/cmTC_209b0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_O_CLOEXEC succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JmxUsb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_44529 && [1/2] Building C object CMakeFiles/cmTC_44529.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_44529
+
+
+Source file was:
+
+    #include <fcntl.h>
+    int flag = O_CLOEXEC;
+    int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_FRAMEWORK_GAMECONTROLLER succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-I5Do2u
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bf32e && [1/2] Building C object CMakeFiles/cmTC_bf32e.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_bf32e
+
+
+Source file was:
+
+          #include <AvailabilityMacros.h>
+          #include <TargetConditionals.h>
+          #import <Foundation/Foundation.h>
+          #import <GameController/GameController.h>
+          #if MAC_OS_X_VERSION_MIN_REQUIRED < 1080
+          #error GameController framework doesn't work on this configuration
+          #endif
+          #if TARGET_CPU_X86
+          #error GameController framework doesn't work on this configuration
+          #endif
+          int main() { return 0; }
+
+Performing C SOURCE FILE Test HAVE_FRAMEWORK_COREHAPTICS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-GGYbFM
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3d6b5 && [1/2] Building C object CMakeFiles/cmTC_3d6b5.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_3d6b5
+
+
+Source file was:
+
+          #include <AvailabilityMacros.h>
+          #include <TargetConditionals.h>
+          #import <Foundation/Foundation.h>
+          #import <CoreHaptics/CoreHaptics.h>
+          int main() { return 0; }
+
+Performing C SOURCE FILE Test HAVE_FRAMEWORK_METAL succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PZZ0OD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a52c1 && [1/2] Building C object CMakeFiles/cmTC_a52c1.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_a52c1
+
+
+Source file was:
+
+        #include <AvailabilityMacros.h>
+        #import <Metal/Metal.h>
+        #import <QuartzCore/CAMetalLayer.h>
+
+        #if (!TARGET_CPU_X86_64 && !TARGET_CPU_ARM64)
+        #error Metal doesn't work on this configuration
+        #endif
+        int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-MNzjk3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a50d9 && [1/2] Building C object CMakeFiles/cmTC_a50d9.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_a50d9
+
+
+Source file was:
+
+      #include <pthread.h>
+      int main(int argc, char** argv) {
+        pthread_attr_t type;
+        pthread_attr_init(&type);
+        return 0;
+      }
+
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-NgTbtS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_00288 && [1/2] Building C object CMakeFiles/cmTC_00288.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_00288
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Fn0DID
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a1e1c && [1/2] Building C object CMakeFiles/cmTC_a1e1c.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_a1e1c
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-r357Us
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c33bd && [1/2] Building C object CMakeFiles/cmTC_c33bd.dir/Debug/HAVE_PTHREAD_H.c.o
+[2/2] Linking C executable Debug/cmTC_c33bd
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP succeeded with the following output:
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WVR6nX
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2b4a4 && [1/2] Building C object CMakeFiles/cmTC_2b4a4.dir/Debug/src.c.o
+[2/2] Linking C executable Debug/cmTC_2b4a4
+
+
+Source file was:
+
+            #include <pthread.h>
+            int main(int argc, char **argv) {
+              #ifdef __APPLE__
+              pthread_setname_np("");
+              #else
+              pthread_setname_np(pthread_self(),"");
+              #endif
+              return 0;
+            }
+

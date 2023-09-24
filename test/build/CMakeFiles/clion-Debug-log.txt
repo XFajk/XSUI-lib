@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G "Ninja Multi-Config" -S /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test -B /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/build
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/build

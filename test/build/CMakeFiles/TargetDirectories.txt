@@ -1,0 +1,3 @@
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/build/CMakeFiles/buttons_test.dir
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/build/CMakeFiles/edit_cache.dir
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/build/CMakeFiles/rebuild_cache.dir
