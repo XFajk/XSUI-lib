@@ -1,10 +1,10 @@
 Determining if the __GLIBC__ exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-F6QtGV
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fZnyaI
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c7594 && [1/2] Building C object CMakeFiles/cmTC_c7594.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_c7594.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c7594.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c7594.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c7594.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-F6QtGV/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-F6QtGV/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_31e1b && [1/2] Building C object CMakeFiles/cmTC_31e1b.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_31e1b.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_31e1b.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_31e1b.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_31e1b.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fZnyaI/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fZnyaI/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
   return ((int*)(&__GLIBC__))[argc];
                   ^
 1 error generated.
@@ -27,12 +27,12 @@ int main(int argc, char** argv)
 }
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-xSv5Sr
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WsKUp4
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_27465 && [1/2] Building C object CMakeFiles/cmTC_27465.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_27465.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_X86 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_27465.dir/Debug/src.c.o -MF CMakeFiles/cmTC_27465.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_27465.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-xSv5Sr/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-xSv5Sr/src.c:6:3: error: use of undeclared identifier 'choke'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d7282 && [1/2] Building C object CMakeFiles/cmTC_d7282.dir/Debug/src.c.o
+FAILED: CMakeFiles/cmTC_d7282.dir/Debug/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_X86 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_d7282.dir/Debug/src.c.o -MF CMakeFiles/cmTC_d7282.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_d7282.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WsKUp4/src.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WsKUp4/src.c:6:3: error: use of undeclared identifier 'choke'
   choke
   ^
 1 error generated.
@@ -51,12 +51,12 @@ int main(int argc, char *argv[]) {
 
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X64 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-qq68LZ
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WB6AaO
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fffcf && [1/2] Building C object CMakeFiles/cmTC_fffcf.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_fffcf.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_X64 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_fffcf.dir/Debug/src.c.o -MF CMakeFiles/cmTC_fffcf.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_fffcf.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-qq68LZ/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-qq68LZ/src.c:6:3: error: use of undeclared identifier 'choke'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9cebe && [1/2] Building C object CMakeFiles/cmTC_9cebe.dir/Debug/src.c.o
+FAILED: CMakeFiles/cmTC_9cebe.dir/Debug/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_X64 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9cebe.dir/Debug/src.c.o -MF CMakeFiles/cmTC_9cebe.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_9cebe.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WB6AaO/src.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WB6AaO/src.c:6:3: error: use of undeclared identifier 'choke'
   choke
   ^
 1 error generated.
@@ -75,12 +75,12 @@ int main(int argc, char *argv[]) {
 
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wWhWU6
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-M4qMBH
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3e1f0 && [1/2] Building C object CMakeFiles/cmTC_3e1f0.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_3e1f0.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_ARM32 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_3e1f0.dir/Debug/src.c.o -MF CMakeFiles/cmTC_3e1f0.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_3e1f0.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wWhWU6/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wWhWU6/src.c:6:3: error: use of undeclared identifier 'choke'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a4173 && [1/2] Building C object CMakeFiles/cmTC_a4173.dir/Debug/src.c.o
+FAILED: CMakeFiles/cmTC_a4173.dir/Debug/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_ARM32 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_a4173.dir/Debug/src.c.o -MF CMakeFiles/cmTC_a4173.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_a4173.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-M4qMBH/src.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-M4qMBH/src.c:6:3: error: use of undeclared identifier 'choke'
   choke
   ^
 1 error generated.
@@ -99,12 +99,12 @@ int main(int argc, char *argv[]) {
 
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-IqtzPD
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tLUmMs
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0ae39 && [1/2] Building C object CMakeFiles/cmTC_0ae39.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_0ae39.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_LOONGARCH64 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_0ae39.dir/Debug/src.c.o -MF CMakeFiles/cmTC_0ae39.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_0ae39.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-IqtzPD/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-IqtzPD/src.c:6:3: error: use of undeclared identifier 'choke'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_627d9 && [1/2] Building C object CMakeFiles/cmTC_627d9.dir/Debug/src.c.o
+FAILED: CMakeFiles/cmTC_627d9.dir/Debug/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_LOONGARCH64 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_627d9.dir/Debug/src.c.o -MF CMakeFiles/cmTC_627d9.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_627d9.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tLUmMs/src.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tLUmMs/src.c:6:3: error: use of undeclared identifier 'choke'
   choke
   ^
 1 error generated.
@@ -123,22 +123,22 @@ int main(int argc, char *argv[]) {
 
 
 Determining if the include file immintrin.h exists failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9LTCO2
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-eJzoVC
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2f47e && [1/2] Building C object CMakeFiles/cmTC_2f47e.dir/Debug/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_2f47e.dir/Debug/CheckIncludeFile.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2f47e.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2f47e.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2f47e.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9LTCO2/CheckIncludeFile.c
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9LTCO2/CheckIncludeFile.c:1:
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4b064 && [1/2] Building C object CMakeFiles/cmTC_4b064.dir/Debug/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_4b064.dir/Debug/CheckIncludeFile.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_4b064.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4b064.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4b064.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-eJzoVC/CheckIncludeFile.c
+In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-eJzoVC/CheckIncludeFile.c:1:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
 #error "This header is only meant to be used on x86 and x64 architecture"
  ^
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9LTCO2/CheckIncludeFile.c:1:
+In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-eJzoVC/CheckIncludeFile.c:1:
 In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:17:
 In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/x86gprintrin.h:15:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
   __asm__ ("hreset $0" :: "a"(__eax));
                           ^
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9LTCO2/CheckIncludeFile.c:1:
+In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-eJzoVC/CheckIncludeFile.c:1:
 In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:21:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
 #error "This header is only meant to be used on x86 and x64 architecture"
@@ -198,13 +198,13 @@ ninja: build stopped: subcommand failed.
 
 
 Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-aFL4TT
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-14GvUk
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7fee7 && [1/2] Building C object CMakeFiles/cmTC_7fee7.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_7fee7.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_ALTIVEC_H_HDR -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos" -maltivec -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_7fee7.dir/Debug/src.c.o -MF CMakeFiles/cmTC_7fee7.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_7fee7.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-aFL4TT/src.c
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_aa848 && [1/2] Building C object CMakeFiles/cmTC_aa848.dir/Debug/src.c.o
+FAILED: CMakeFiles/cmTC_aa848.dir/Debug/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_ALTIVEC_H_HDR -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos" -maltivec -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_aa848.dir/Debug/src.c.o -MF CMakeFiles/cmTC_aa848.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_aa848.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-14GvUk/src.c
 clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-aFL4TT/src.c:2:
+In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-14GvUk/src.c:2:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:13:2: error: "AltiVec support not enabled"
 #error "AltiVec support not enabled"
  ^
@@ -279,16 +279,16 @@ Source file was:
           int main(int argc, char **argv) { return 0; }
 
 Performing C SOURCE FILE Test CPU_SUPPORTS_ALTIVEC failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Pl76R4
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tzayPb
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_053d8 && [1/2] Building C object CMakeFiles/cmTC_053d8.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_053d8.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCPU_SUPPORTS_ALTIVEC -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos" -maltivec -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_053d8.dir/Debug/src.c.o -MF CMakeFiles/cmTC_053d8.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_053d8.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Pl76R4/src.c
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dff0e && [1/2] Building C object CMakeFiles/cmTC_dff0e.dir/Debug/src.c.o
+FAILED: CMakeFiles/cmTC_dff0e.dir/Debug/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCPU_SUPPORTS_ALTIVEC -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos" -maltivec -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_dff0e.dir/Debug/src.c.o -MF CMakeFiles/cmTC_dff0e.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_dff0e.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tzayPb/src.c
 clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Pl76R4/src.c:2:11: error: unknown type name 'vector'
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tzayPb/src.c:2:11: error: unknown type name 'vector'
           vector unsigned int vzero() {
           ^
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Pl76R4/src.c:3:22: error: call to undeclared function 'vec_splat_u32'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tzayPb/src.c:3:22: error: call to undeclared function 'vec_splat_u32'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
               return vec_splat_u32(0);
                      ^
 2 errors generated.
@@ -303,12 +303,12 @@ Source file was:
           int main(int argc, char **argv) { return 0; }
 
 Determining if the include file malloc.h exists failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-gZpqvI
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-X1EXq3
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d0ef && [1/2] Building C object CMakeFiles/cmTC_4d0ef.dir/Debug/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_4d0ef.dir/Debug/CheckIncludeFile.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_4d0ef.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4d0ef.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4d0ef.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-gZpqvI/CheckIncludeFile.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-gZpqvI/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_56be7 && [1/2] Building C object CMakeFiles/cmTC_56be7.dir/Debug/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_56be7.dir/Debug/CheckIncludeFile.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_56be7.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_56be7.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_56be7.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-X1EXq3/CheckIncludeFile.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-X1EXq3/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
 #include <malloc.h>
          ^~~~~~~~~~
 1 error generated.
@@ -317,12 +317,12 @@ ninja: build stopped: subcommand failed.
 
 
 Determining if the include file linux/input.h exists failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-FFkjmk
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-CabQRN
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c916e && [1/2] Building C object CMakeFiles/cmTC_c916e.dir/Debug/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_c916e.dir/Debug/CheckIncludeFile.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c916e.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c916e.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c916e.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-FFkjmk/CheckIncludeFile.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-FFkjmk/CheckIncludeFile.c:1:10: fatal error: 'linux/input.h' file not found
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e06aa && [1/2] Building C object CMakeFiles/cmTC_e06aa.dir/Debug/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_e06aa.dir/Debug/CheckIncludeFile.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e06aa.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e06aa.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e06aa.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-CabQRN/CheckIncludeFile.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-CabQRN/CheckIncludeFile.c:1:10: fatal error: 'linux/input.h' file not found
 #include <linux/input.h>
          ^~~~~~~~~~~~~~~
 1 error generated.
@@ -331,12 +331,12 @@ ninja: build stopped: subcommand failed.
 
 
 Determining if the _strrev exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-f1FRkM
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Q5ryk9
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c7872 && [1/2] Building C object CMakeFiles/cmTC_c7872.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_c7872.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c7872.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c7872.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c7872.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-f1FRkM/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-f1FRkM/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9215f && [1/2] Building C object CMakeFiles/cmTC_9215f.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_9215f.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9215f.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9215f.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9215f.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Q5ryk9/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Q5ryk9/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'
   return ((int*)(&_strrev))[argc];
                   ^
 1 error generated.
@@ -365,12 +365,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _strupr exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PhYNw3
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Nw8ilf
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b4399 && [1/2] Building C object CMakeFiles/cmTC_b4399.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_b4399.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_b4399.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b4399.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b4399.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PhYNw3/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PhYNw3/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2288a && [1/2] Building C object CMakeFiles/cmTC_2288a.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_2288a.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2288a.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2288a.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2288a.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Nw8ilf/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Nw8ilf/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
   return ((int*)(&_strupr))[argc];
                   ^
 1 error generated.
@@ -399,12 +399,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _strlwr exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-thyCzP
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-D8V7HY
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6d6f2 && [1/2] Building C object CMakeFiles/cmTC_6d6f2.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_6d6f2.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_6d6f2.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6d6f2.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6d6f2.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-thyCzP/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-thyCzP/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_da309 && [1/2] Building C object CMakeFiles/cmTC_da309.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_da309.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_da309.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_da309.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_da309.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-D8V7HY/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-D8V7HY/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'
   return ((int*)(&_strlwr))[argc];
                   ^
 1 error generated.
@@ -433,12 +433,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the itoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-1iBQ3l
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-b8rvAE
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_68e8b && [1/2] Building C object CMakeFiles/cmTC_68e8b.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_68e8b.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_68e8b.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_68e8b.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_68e8b.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-1iBQ3l/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-1iBQ3l/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b8c09 && [1/2] Building C object CMakeFiles/cmTC_b8c09.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b8c09.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_b8c09.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b8c09.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b8c09.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-b8rvAE/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-b8rvAE/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
   return ((int*)(&itoa))[argc];
                   ^
 1 error generated.
@@ -467,12 +467,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _ltoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iJ0a2c
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-hwPNqQ
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a11cb && [1/2] Building C object CMakeFiles/cmTC_a11cb.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_a11cb.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_a11cb.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a11cb.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a11cb.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iJ0a2c/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iJ0a2c/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5b8bb && [1/2] Building C object CMakeFiles/cmTC_5b8bb.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_5b8bb.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_5b8bb.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5b8bb.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5b8bb.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-hwPNqQ/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-hwPNqQ/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
   return ((int*)(&_ltoa))[argc];
                   ^
 1 error generated.
@@ -501,12 +501,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _uitoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Mf1jHB
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-BaCXzd
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a6409 && [1/2] Building C object CMakeFiles/cmTC_a6409.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_a6409.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_a6409.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a6409.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a6409.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Mf1jHB/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Mf1jHB/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_59ac3 && [1/2] Building C object CMakeFiles/cmTC_59ac3.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_59ac3.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_59ac3.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_59ac3.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_59ac3.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-BaCXzd/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-BaCXzd/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
   return ((int*)(&_uitoa))[argc];
                   ^
 1 error generated.
@@ -535,12 +535,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _ultoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-l7PK7b
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Z8QWwR
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d283c && [1/2] Building C object CMakeFiles/cmTC_d283c.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_d283c.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_d283c.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d283c.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d283c.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-l7PK7b/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-l7PK7b/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c90a6 && [1/2] Building C object CMakeFiles/cmTC_c90a6.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c90a6.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c90a6.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c90a6.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c90a6.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Z8QWwR/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Z8QWwR/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
   return ((int*)(&_ultoa))[argc];
                   ^
 1 error generated.
@@ -569,12 +569,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _i64toa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-m54rzU
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-RVojrP
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_21c55 && [1/2] Building C object CMakeFiles/cmTC_21c55.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_21c55.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_21c55.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_21c55.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_21c55.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-m54rzU/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-m54rzU/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_52006 && [1/2] Building C object CMakeFiles/cmTC_52006.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_52006.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_52006.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_52006.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_52006.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-RVojrP/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-RVojrP/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
   return ((int*)(&_i64toa))[argc];
                   ^
 1 error generated.
@@ -603,12 +603,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _ui64toa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fVggCY
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PzZU6t
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f555c && [1/2] Building C object CMakeFiles/cmTC_f555c.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_f555c.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f555c.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f555c.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f555c.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fVggCY/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-fVggCY/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_05dd2 && [1/2] Building C object CMakeFiles/cmTC_05dd2.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_05dd2.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_05dd2.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_05dd2.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_05dd2.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PzZU6t/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PzZU6t/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
   return ((int*)(&_ui64toa))[argc];
                   ^
 1 error generated.
@@ -637,12 +637,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _stricmp exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-l4Pyjk
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-dJEBmw
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2065a && [1/2] Building C object CMakeFiles/cmTC_2065a.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_2065a.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2065a.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2065a.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2065a.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-l4Pyjk/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-l4Pyjk/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e5085 && [1/2] Building C object CMakeFiles/cmTC_e5085.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e5085.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e5085.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e5085.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e5085.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-dJEBmw/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-dJEBmw/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
   return ((int*)(&_stricmp))[argc];
                   ^
 1 error generated.
@@ -671,12 +671,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _strnicmp exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8sErGB
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UKSs67
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b9d9d && [1/2] Building C object CMakeFiles/cmTC_b9d9d.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_b9d9d.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_b9d9d.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b9d9d.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b9d9d.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8sErGB/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8sErGB/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fe517 && [1/2] Building C object CMakeFiles/cmTC_fe517.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_fe517.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_fe517.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_fe517.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_fe517.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UKSs67/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-UKSs67/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
   return ((int*)(&_strnicmp))[argc];
                   ^~~~~~~~~
                   strncmp
@@ -709,760 +709,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _wcsdup exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8htYI7
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_93425 && [1/2] Building C object CMakeFiles/cmTC_93425.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_93425.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_93425.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_93425.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_93425.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8htYI7/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-8htYI7/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
-  return ((int*)(&_wcsdup))[argc];
-                  ^~~~~~~
-                  wcsdup
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/wchar.h:199:10: note: 'wcsdup' declared here
-wchar_t *wcsdup(const wchar_t *) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
-         ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _wcsdup
-  return ((int*)(&_wcsdup))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the __GLIBC__ exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6LC6SI
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e212a && [1/2] Building C object CMakeFiles/cmTC_e212a.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_e212a.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e212a.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e212a.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e212a.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6LC6SI/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6LC6SI/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
-  return ((int*)(&__GLIBC__))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stdlib.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef __GLIBC__
-  return ((int*)(&__GLIBC__))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-70JoUT
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_533cc && [1/2] Building C object CMakeFiles/cmTC_533cc.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_533cc.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_X86 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_533cc.dir/Debug/src.c.o -MF CMakeFiles/cmTC_533cc.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_533cc.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-70JoUT/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-70JoUT/src.c:6:3: error: use of undeclared identifier 'choke'
-  choke
-  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-Source file was:
-
-int main(int argc, char *argv[]) {
-#if defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__) ||defined( __i386) || defined(_M_IX86)
-  return 0;
-#else
-  choke
-#endif
-}
-
-
-Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X64 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jyZI22
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e2350 && [1/2] Building C object CMakeFiles/cmTC_e2350.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_e2350.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_X64 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e2350.dir/Debug/src.c.o -MF CMakeFiles/cmTC_e2350.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_e2350.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jyZI22/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-jyZI22/src.c:6:3: error: use of undeclared identifier 'choke'
-  choke
-  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-Source file was:
-
-int main(int argc, char *argv[]) {
-#if defined(__amd64__) || defined(__amd64) || defined(__x86_64__) || defined(__x86_64) || defined(_M_X64) || defined(_M_AMD64)
-  return 0;
-#else
-  choke
-#endif
-}
-
-
-Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-utOk0W
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a0f3a && [1/2] Building C object CMakeFiles/cmTC_a0f3a.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_a0f3a.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_ARM32 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_a0f3a.dir/Debug/src.c.o -MF CMakeFiles/cmTC_a0f3a.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_a0f3a.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-utOk0W/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-utOk0W/src.c:6:3: error: use of undeclared identifier 'choke'
-  choke
-  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-Source file was:
-
-int main(int argc, char *argv[]) {
-#if defined(__arm__) || defined(_M_ARM)
-  return 0;
-#else
-  choke
-#endif
-}
-
-
-Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9ymPca
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6c6e0 && [1/2] Building C object CMakeFiles/cmTC_6c6e0.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_6c6e0.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCHECK_CPU_ARCHITECTURE_LOONGARCH64 -DCMAKE_INTDIR=\"Debug\"  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_6c6e0.dir/Debug/src.c.o -MF CMakeFiles/cmTC_6c6e0.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_6c6e0.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9ymPca/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-9ymPca/src.c:6:3: error: use of undeclared identifier 'choke'
-  choke
-  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-Source file was:
-
-int main(int argc, char *argv[]) {
-#if defined(__loongarch64)
-  return 0;
-#else
-  choke
-#endif
-}
-
-
-Determining if the include file immintrin.h exists failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vw5dK4
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_98396 && [1/2] Building C object CMakeFiles/cmTC_98396.dir/Debug/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_98396.dir/Debug/CheckIncludeFile.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_98396.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_98396.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_98396.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vw5dK4/CheckIncludeFile.c
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vw5dK4/CheckIncludeFile.c:1:
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
-#error "This header is only meant to be used on x86 and x64 architecture"
- ^
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vw5dK4/CheckIncludeFile.c:1:
-In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:17:
-In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/x86gprintrin.h:15:
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/hresetintrin.h:42:27: error: invalid input constraint 'a' in asm
-  __asm__ ("hreset $0" :: "a"(__eax));
-                          ^
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-vw5dK4/CheckIncludeFile.c:1:
-In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:21:
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
-#error "This header is only meant to be used on x86 and x64 architecture"
- ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:54:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_vec_init_v2si(__i, 0);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:133:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_packsswb((__v4hi)__m1, (__v4hi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:163:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_packssdw((__v2si)__m1, (__v2si)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:193:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_packuswb((__v4hi)__m1, (__v4hi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:220:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_punpckhbw((__v8qi)__m1, (__v8qi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:243:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_punpckhwd((__v4hi)__m1, (__v4hi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:264:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_punpckhdq((__v2si)__m1, (__v2si)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:291:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_punpcklbw((__v8qi)__m1, (__v8qi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:314:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_punpcklwd((__v4hi)__m1, (__v4hi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:335:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_punpckldq((__v2si)__m1, (__v2si)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:356:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_paddb((__v8qi)__m1, (__v8qi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:377:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_paddw((__v4hi)__m1, (__v4hi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:398:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_paddd((__v2si)__m1, (__v2si)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:420:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_paddsb((__v8qi)__m1, (__v8qi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:443:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_paddsw((__v4hi)__m1, (__v4hi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mmintrin.h:465:12: error: invalid conversion between vector type '__m64' (vector of 1 'long long' value) and integer type 'int' of different size
-    return (__m64)__builtin_ia32_paddusb((__v8qi)__m1, (__v8qi)__m2);
-           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-fatal error: too many errors emitted, stopping now [-ferror-limit=]
-20 errors generated.
-ninja: build stopped: subcommand failed.
-
-
-
-Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WAj7SY
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8c3f2 && [1/2] Building C object CMakeFiles/cmTC_8c3f2.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_8c3f2.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_ALTIVEC_H_HDR -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos" -maltivec -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8c3f2.dir/Debug/src.c.o -MF CMakeFiles/cmTC_8c3f2.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_8c3f2.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WAj7SY/src.c
-clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
-In file included from /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WAj7SY/src.c:2:
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:13:2: error: "AltiVec support not enabled"
-#error "AltiVec support not enabled"
- ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:50:19: error: unknown type name 'vector'
-static __inline__ vector signed char __ATTRS_o_ai vec_perm(
-                  ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:51:5: error: unknown type name 'vector'
-    vector signed char __a, vector signed char __b, vector unsigned char __c);
-    ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:51:29: error: unknown type name 'vector'
-    vector signed char __a, vector signed char __b, vector unsigned char __c);
-                            ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:51:53: error: unknown type name 'vector'
-    vector signed char __a, vector signed char __b, vector unsigned char __c);
-                                                    ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:53:19: error: unknown type name 'vector'
-static __inline__ vector unsigned char __ATTRS_o_ai
-                  ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:54:10: error: unknown type name 'vector'
-vec_perm(vector unsigned char __a, vector unsigned char __b,
-         ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:54:36: error: unknown type name 'vector'
-vec_perm(vector unsigned char __a, vector unsigned char __b,
-                                   ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:55:10: error: unknown type name 'vector'
-         vector unsigned char __c);
-         ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:57:19: error: unknown type name 'vector'
-static __inline__ vector bool char __ATTRS_o_ai
-                  ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:57:8: error: 'inline' can only appear on functions
-static __inline__ vector bool char __ATTRS_o_ai
-       ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:57:30: error: expected ';' after top level declarator
-static __inline__ vector bool char __ATTRS_o_ai
-                             ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:58:10: error: unknown type name 'vector'
-vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
-         ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:58:22: error: expected ')'
-vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
-                     ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:58:9: note: to match this '('
-vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
-        ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:60:19: error: unknown type name 'vector'
-static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
-                  ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:60:54: error: unknown type name 'vector'
-static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
-                                                     ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:61:54: error: unknown type name 'vector'
-                                                     vector signed short __b,
-                                                     ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:62:54: error: unknown type name 'vector'
-                                                     vector unsigned char __c);
-                                                     ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/altivec.h:64:19: error: unknown type name 'vector'
-static __inline__ vector unsigned short __ATTRS_o_ai
-                  ^
-fatal error: too many errors emitted, stopping now [-ferror-limit=]
-20 errors generated.
-ninja: build stopped: subcommand failed.
-
-
-Source file was:
-
-          #include <altivec.h>
-          vector unsigned int vzero() {
-              return vec_splat_u32(0);
-          }
-          int main(int argc, char **argv) { return 0; }
-
-Performing C SOURCE FILE Test CPU_SUPPORTS_ALTIVEC failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WkZcTH
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9eaec && [1/2] Building C object CMakeFiles/cmTC_9eaec.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_9eaec.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCPU_SUPPORTS_ALTIVEC -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos" -maltivec -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9eaec.dir/Debug/src.c.o -MF CMakeFiles/cmTC_9eaec.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_9eaec.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WkZcTH/src.c
-clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WkZcTH/src.c:2:11: error: unknown type name 'vector'
-          vector unsigned int vzero() {
-          ^
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-WkZcTH/src.c:3:22: error: call to undeclared function 'vec_splat_u32'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
-              return vec_splat_u32(0);
-                     ^
-2 errors generated.
-ninja: build stopped: subcommand failed.
-
-
-Source file was:
-
-          vector unsigned int vzero() {
-              return vec_splat_u32(0);
-          }
-          int main(int argc, char **argv) { return 0; }
-
-Determining if the include file malloc.h exists failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-U0txhi
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_37c8e && [1/2] Building C object CMakeFiles/cmTC_37c8e.dir/Debug/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_37c8e.dir/Debug/CheckIncludeFile.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_37c8e.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_37c8e.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_37c8e.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-U0txhi/CheckIncludeFile.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-U0txhi/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
-#include <malloc.h>
-         ^~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-
-Determining if the include file linux/input.h exists failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-K1Eq4B
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_62226 && [1/2] Building C object CMakeFiles/cmTC_62226.dir/Debug/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_62226.dir/Debug/CheckIncludeFile.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_62226.dir/Debug/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_62226.dir/Debug/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_62226.dir/Debug/CheckIncludeFile.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-K1Eq4B/CheckIncludeFile.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-K1Eq4B/CheckIncludeFile.c:1:10: fatal error: 'linux/input.h' file not found
-#include <linux/input.h>
-         ^~~~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-
-Determining if the _strrev exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wat7VB
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f63ad && [1/2] Building C object CMakeFiles/cmTC_f63ad.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_f63ad.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f63ad.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f63ad.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f63ad.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wat7VB/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-wat7VB/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'
-  return ((int*)(&_strrev))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _strrev
-  return ((int*)(&_strrev))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _strupr exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2j05aZ
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9f362 && [1/2] Building C object CMakeFiles/cmTC_9f362.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_9f362.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9f362.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9f362.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9f362.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2j05aZ/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2j05aZ/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
-  return ((int*)(&_strupr))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _strupr
-  return ((int*)(&_strupr))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _strlwr exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Qfm8W6
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_23bf0 && [1/2] Building C object CMakeFiles/cmTC_23bf0.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_23bf0.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_23bf0.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_23bf0.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_23bf0.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Qfm8W6/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Qfm8W6/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'
-  return ((int*)(&_strlwr))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _strlwr
-  return ((int*)(&_strlwr))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the itoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4CCX13
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f8d47 && [1/2] Building C object CMakeFiles/cmTC_f8d47.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_f8d47.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f8d47.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f8d47.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f8d47.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4CCX13/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4CCX13/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
-  return ((int*)(&itoa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef itoa
-  return ((int*)(&itoa))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _ltoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6fLax0
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f0815 && [1/2] Building C object CMakeFiles/cmTC_f0815.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_f0815.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f0815.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f0815.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f0815.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6fLax0/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-6fLax0/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
-  return ((int*)(&_ltoa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _ltoa
-  return ((int*)(&_ltoa))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _uitoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ApiXBz
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e2e9e && [1/2] Building C object CMakeFiles/cmTC_e2e9e.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_e2e9e.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e2e9e.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e2e9e.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e2e9e.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ApiXBz/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-ApiXBz/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
-  return ((int*)(&_uitoa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _uitoa
-  return ((int*)(&_uitoa))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _ultoa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iamNXO
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0287e && [1/2] Building C object CMakeFiles/cmTC_0287e.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_0287e.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_0287e.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0287e.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0287e.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iamNXO/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-iamNXO/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
-  return ((int*)(&_ultoa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _ultoa
-  return ((int*)(&_ultoa))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _i64toa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-OeHZiV
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2f26a && [1/2] Building C object CMakeFiles/cmTC_2f26a.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_2f26a.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2f26a.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2f26a.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2f26a.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-OeHZiV/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-OeHZiV/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
-  return ((int*)(&_i64toa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _i64toa
-  return ((int*)(&_i64toa))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _ui64toa exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-TNyg6t
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_edbd1 && [1/2] Building C object CMakeFiles/cmTC_edbd1.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_edbd1.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_edbd1.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_edbd1.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_edbd1.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-TNyg6t/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-TNyg6t/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
-  return ((int*)(&_ui64toa))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _ui64toa
-  return ((int*)(&_ui64toa))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _stricmp exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JOqxZP
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b0009 && [1/2] Building C object CMakeFiles/cmTC_b0009.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_b0009.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_b0009.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b0009.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b0009.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JOqxZP/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-JOqxZP/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
-  return ((int*)(&_stricmp))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _stricmp
-  return ((int*)(&_stricmp))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _strnicmp exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-a1wSnG
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2eaee && [1/2] Building C object CMakeFiles/cmTC_2eaee.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_2eaee.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2eaee.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2eaee.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2eaee.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-a1wSnG/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-a1wSnG/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
-  return ((int*)(&_strnicmp))[argc];
-                  ^~~~~~~~~
-                  strncmp
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/string.h:84:6: note: 'strncmp' declared here
-int      strncmp(const char *__s1, const char *__s2, size_t __n);
-         ^
-1 error generated.
-ninja: build stopped: subcommand failed.
-
-
-File CheckSymbolExists.c:
-/* */
-#include <stddef.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <wchar.h>
-#include <float.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef _strnicmp
-  return ((int*)(&_strnicmp))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the _wcsdup exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-O3uACW
-
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5fe0e && [1/2] Building C object CMakeFiles/cmTC_5fe0e.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_5fe0e.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_5fe0e.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5fe0e.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5fe0e.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-O3uACW/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-O3uACW/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PLL8en
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a6c22 && [1/2] Building C object CMakeFiles/cmTC_a6c22.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_a6c22.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_a6c22.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a6c22.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a6c22.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PLL8en/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-PLL8en/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
   return ((int*)(&_wcsdup))[argc];
                   ^~~~~~~
                   wcsdup
@@ -1495,12 +747,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _wcsicmp exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-0jXAAW
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2O181P
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ff8aa && [1/2] Building C object CMakeFiles/cmTC_ff8aa.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_ff8aa.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_ff8aa.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ff8aa.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ff8aa.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-0jXAAW/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-0jXAAW/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsicmp'
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ed962 && [1/2] Building C object CMakeFiles/cmTC_ed962.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_ed962.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_ed962.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ed962.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ed962.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2O181P/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-2O181P/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsicmp'
   return ((int*)(&_wcsicmp))[argc];
                   ^
 1 error generated.
@@ -1529,12 +781,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the _wcsnicmp exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-SsK0TC
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-zNvuHn
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c5b3f && [1/2] Building C object CMakeFiles/cmTC_c5b3f.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_c5b3f.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c5b3f.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c5b3f.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c5b3f.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-SsK0TC/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-SsK0TC/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsnicmp'; did you mean 'wcsncmp'?
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c6f51 && [1/2] Building C object CMakeFiles/cmTC_c6f51.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c6f51.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c6f51.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c6f51.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c6f51.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-zNvuHn/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-zNvuHn/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsnicmp'; did you mean 'wcsncmp'?
   return ((int*)(&_wcsnicmp))[argc];
                   ^~~~~~~~~
                   wcsncmp
@@ -1567,12 +819,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the fopen64 exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Lg7lpd
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-7f2t13
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5af27 && [1/2] Building C object CMakeFiles/cmTC_5af27.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_5af27.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_5af27.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5af27.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5af27.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Lg7lpd/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-Lg7lpd/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_01a49 && [1/2] Building C object CMakeFiles/cmTC_01a49.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_01a49.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_01a49.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_01a49.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_01a49.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-7f2t13/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-7f2t13/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
   return ((int*)(&fopen64))[argc];
                   ^~~~~~~
                   fopen
@@ -1605,12 +857,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the fseeko64 exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-y8n7Ow
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-o0tODv
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c4124 && [1/2] Building C object CMakeFiles/cmTC_c4124.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_c4124.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c4124.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c4124.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c4124.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-y8n7Ow/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-y8n7Ow/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_14605 && [1/2] Building C object CMakeFiles/cmTC_14605.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_14605.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_14605.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_14605.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_14605.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-o0tODv/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-o0tODv/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
   return ((int*)(&fseeko64))[argc];
                   ^~~~~~~~
                   fseeko
@@ -1643,12 +895,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the getauxval exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4T76Hw
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sffiTq
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_22798 && [1/2] Building C object CMakeFiles/cmTC_22798.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_22798.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_22798.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_22798.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_22798.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4T76Hw/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-4T76Hw/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c8b25 && [1/2] Building C object CMakeFiles/cmTC_c8b25.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c8b25.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c8b25.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c8b25.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c8b25.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sffiTq/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-sffiTq/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
 #include <sys/auxv.h>
          ^~~~~~~~~~~~
 1 error generated.
@@ -1671,12 +923,12 @@ int main(int argc, char** argv)
 }
 
 Determining if the elf_aux_info exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-nEy7u8
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-3kbAFS
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_565ff && [1/2] Building C object CMakeFiles/cmTC_565ff.dir/Debug/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_565ff.dir/Debug/CheckSymbolExists.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_565ff.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_565ff.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_565ff.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-nEy7u8/CheckSymbolExists.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-nEy7u8/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9c235 && [1/2] Building C object CMakeFiles/cmTC_9c235.dir/Debug/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_9c235.dir/Debug/CheckSymbolExists.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9c235.dir/Debug/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9c235.dir/Debug/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9c235.dir/Debug/CheckSymbolExists.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-3kbAFS/CheckSymbolExists.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-3kbAFS/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
 #include <sys/auxv.h>
          ^~~~~~~~~~~~
 1 error generated.
@@ -1699,15 +951,15 @@ int main(int argc, char** argv)
 }
 
 Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-MBcJ5e
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kM1web
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_16762 && [1/2] Building C object CMakeFiles/cmTC_16762.dir/Debug/src.c.o
-FAILED: CMakeFiles/cmTC_16762.dir/Debug/src.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_SEM_TIMEDWAIT -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -D_THREAD_SAFE -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_16762.dir/Debug/src.c.o -MF CMakeFiles/cmTC_16762.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_16762.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-MBcJ5e/src.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-MBcJ5e/src.c:5:19: error: call to undeclared function 'sem_timedwait'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ea8cc && [1/2] Building C object CMakeFiles/cmTC_ea8cc.dir/Debug/src.c.o
+FAILED: CMakeFiles/cmTC_ea8cc.dir/Debug/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_SEM_TIMEDWAIT -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -D_THREAD_SAFE -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_ea8cc.dir/Debug/src.c.o -MF CMakeFiles/cmTC_ea8cc.dir/Debug/src.c.o.d -o CMakeFiles/cmTC_ea8cc.dir/Debug/src.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kM1web/src.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kM1web/src.c:5:19: error: call to undeclared function 'sem_timedwait'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
                   sem_timedwait(NULL, NULL);
                   ^
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-MBcJ5e/src.c:5:19: note: did you mean 'sem_trywait'?
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-kM1web/src.c:5:19: note: did you mean 'sem_trywait'?
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/semaphore.h:58:5: note: 'sem_trywait' declared here
 int sem_trywait(sem_t *);
     ^
@@ -1725,12 +977,12 @@ Source file was:
               }
 
 Determining if files pthread_np.h exist failed with the following output:
-Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-t7BnvH
+Change Dir: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tLbtLG
 
-Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_94d80 && [1/2] Building C object CMakeFiles/cmTC_94d80.dir/Debug/HAVE_PTHREAD_NP_H.c.o
-FAILED: CMakeFiles/cmTC_94d80.dir/Debug/HAVE_PTHREAD_NP_H.c.o 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -D_THREAD_SAFE -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_94d80.dir/Debug/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles/cmTC_94d80.dir/Debug/HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles/cmTC_94d80.dir/Debug/HAVE_PTHREAD_NP_H.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-t7BnvH/HAVE_PTHREAD_NP_H.c
-/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-t7BnvH/HAVE_PTHREAD_NP_H.c:2:10: fatal error: 'pthread_np.h' file not found
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5cac8 && [1/2] Building C object CMakeFiles/cmTC_5cac8.dir/Debug/HAVE_PTHREAD_NP_H.c.o
+FAILED: CMakeFiles/cmTC_5cac8.dir/Debug/HAVE_PTHREAD_NP_H.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_INTDIR=\"Debug\"  -idirafter "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/external/SDL2/src/video/khronos"  -D_GNU_SOURCE=1 -D_THREAD_SAFE -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_5cac8.dir/Debug/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles/cmTC_5cac8.dir/Debug/HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles/cmTC_5cac8.dir/Debug/HAVE_PTHREAD_NP_H.c.o -c /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tLbtLG/HAVE_PTHREAD_NP_H.c
+/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/CMakeFiles/CMakeScratch/TryCompile-tLbtLG/HAVE_PTHREAD_NP_H.c:2:10: fatal error: 'pthread_np.h' file not found
 #include <pthread_np.h>
          ^~~~~~~~~~~~~~
 1 error generated.

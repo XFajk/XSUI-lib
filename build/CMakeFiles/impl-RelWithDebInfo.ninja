@@ -51,6 +51,22 @@ build CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsui.c.o: C_COMPILER__XSUIlib_Re
   OBJECT_DIR = CMakeFiles/XSUIlib.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/XSUIlib.dir/RelWithDebInfo/src
 
+build CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsCore.c.o: C_COMPILER__XSUIlib_RelWithDebInfo /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/src/xsCore.c || cmake_object_order_depends_target_XSUIlib_RELWITHDEBINFO
+  DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsCore.c.o.d
+  FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -std=gnu2x
+  INCLUDES = -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/include -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include/SDL2 -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include-config-relwithdebinfo/SDL2
+  OBJECT_DIR = CMakeFiles/XSUIlib.dir/RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles/XSUIlib.dir/RelWithDebInfo/src
+
+build CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsMath.c.o: C_COMPILER__XSUIlib_RelWithDebInfo /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/src/xsMath.c || cmake_object_order_depends_target_XSUIlib_RELWITHDEBINFO
+  DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsMath.c.o.d
+  FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -std=gnu2x
+  INCLUDES = -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/include -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include/SDL2 -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include-config-relwithdebinfo/SDL2
+  OBJECT_DIR = CMakeFiles/XSUIlib.dir/RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles/XSUIlib.dir/RelWithDebInfo/src
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target XSUIlib
@@ -59,11 +75,11 @@ build CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsui.c.o: C_COMPILER__XSUIlib_Re
 #############################################
 # Link the static library RelWithDebInfo/libXSUIlib.a
 
-build RelWithDebInfo/libXSUIlib.a: C_STATIC_LIBRARY_LINKER__XSUIlib_RelWithDebInfo CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsui.c.o || external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib external/SDL2/RelWithDebInfo/libSDL2main.a external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib
+build RelWithDebInfo/libXSUIlib.a: C_STATIC_LIBRARY_LINKER__XSUIlib_RelWithDebInfo CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsui.c.o CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsCore.c.o CMakeFiles/XSUIlib.dir/RelWithDebInfo/src/xsMath.c.o || external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib external/SDL2/RelWithDebInfo/libSDL2main.a external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5
   LANGUAGE_COMPILE_FLAGS = -O2 -g -DNDEBUG
   OBJECT_DIR = CMakeFiles/XSUIlib.dir/RelWithDebInfo
-  POST_BUILD = :
+  POST_BUILD = cd /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E copy /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/Release/libSDL2-2.0.0.dylib /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/RelWithDebInfo
   PRE_LINK = :
   TARGET_FILE = RelWithDebInfo/libXSUIlib.a
   TARGET_PDB = XSUIlib.a.dbg
@@ -3939,6 +3955,46 @@ build external/SDL2/include/SDL2/close_code.h | ${cmake_ninja_workdir}external/S
 build external/SDL2/CMakeFiles/uninstall-RelWithDebInfo | ${cmake_ninja_workdir}external/SDL2/CMakeFiles/uninstall-RelWithDebInfo: CUSTOM_COMMAND
   COMMAND = cd /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/cmake_uninstall.cmake
 
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target buttons_test
+
+
+#############################################
+# Order-only phony target for buttons_test
+
+build cmake_object_order_depends_target_buttons_test_RELWITHDEBINFO: phony || cmake_object_order_depends_target_SDL2_RELWITHDEBINFO cmake_object_order_depends_target_SDL2main_RELWITHDEBINFO cmake_object_order_depends_target_XSUIlib_RELWITHDEBINFO
+
+build test/CMakeFiles/buttons_test.dir/RelWithDebInfo/buttons/buttons.c.o: C_COMPILER__buttons_test_RelWithDebInfo /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/buttons/buttons.c || cmake_object_order_depends_target_buttons_test_RELWITHDEBINFO
+  DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = test/CMakeFiles/buttons_test.dir/RelWithDebInfo/buttons/buttons.c.o.d
+  FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -std=gnu2x
+  INCLUDES = -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/../include -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/include -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include/SDL2 -I/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/include-config-relwithdebinfo/SDL2
+  OBJECT_DIR = test/CMakeFiles/buttons_test.dir/RelWithDebInfo
+  OBJECT_FILE_DIR = test/CMakeFiles/buttons_test.dir/RelWithDebInfo/buttons
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buttons_test
+
+
+#############################################
+# Link the executable test/RelWithDebInfo/buttons_test
+
+build test/RelWithDebInfo/buttons_test: C_EXECUTABLE_LINKER__buttons_test_RelWithDebInfo test/CMakeFiles/buttons_test.dir/RelWithDebInfo/buttons/buttons.c.o | RelWithDebInfo/libXSUIlib.a external/SDL2/RelWithDebInfo/libSDL2-2.0.0.dylib external/SDL2/RelWithDebInfo/libSDL2main.a || RelWithDebInfo/libXSUIlib.a external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib external/SDL2/RelWithDebInfo/libSDL2main.a external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib
+  FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5
+  LINK_LIBRARIES = -Wl,-rpath,/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2/RelWithDebInfo -Wl,-rpath,/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/../build/Release -Wl,-rpath,/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/lib  RelWithDebInfo/libXSUIlib.a  external/SDL2/RelWithDebInfo/libSDL2-2.0.0.dylib  external/SDL2/RelWithDebInfo/libSDL2main.a
+  LINK_PATH = -L/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/../build/Release   -L/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/lib
+  OBJECT_DIR = test/CMakeFiles/buttons_test.dir/RelWithDebInfo
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/RelWithDebInfo/buttons_test
+  TARGET_PDB = buttons_test.dbg
+
 build SDL2-static$:RelWithDebInfo: phony external/SDL2/RelWithDebInfo/libSDL2.a
 
 build SDL2$:RelWithDebInfo: phony external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib
@@ -3948,6 +4004,8 @@ build SDL2_test$:RelWithDebInfo: phony external/SDL2/RelWithDebInfo/libSDL2_test
 build SDL2main$:RelWithDebInfo: phony external/SDL2/RelWithDebInfo/libSDL2main.a
 
 build XSUIlib$:RelWithDebInfo: phony RelWithDebInfo/libXSUIlib.a
+
+build buttons_test$:RelWithDebInfo: phony test/RelWithDebInfo/buttons_test
 
 build libSDL2-2.0.dylib$:RelWithDebInfo: phony external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib
 
@@ -3967,13 +4025,19 @@ build uninstall$:RelWithDebInfo: phony external/SDL2/uninstall$:RelWithDebInfo
 #############################################
 # Folder: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build
 
-build all$:RelWithDebInfo: phony RelWithDebInfo/libXSUIlib.a external/SDL2/all$:RelWithDebInfo
+build all$:RelWithDebInfo: phony RelWithDebInfo/libXSUIlib.a external/SDL2/all$:RelWithDebInfo test/all$:RelWithDebInfo
 
 
 #############################################
 # Folder: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2
 
 build external/SDL2/all$:RelWithDebInfo: phony external/SDL2/RelWithDebInfo/libSDL2main.a external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib external/SDL2/RelWithDebInfo/libSDL2.a external/SDL2/RelWithDebInfo/libSDL2_test.a
+
+
+#############################################
+# Folder: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/test
+
+build test/all$:RelWithDebInfo: phony test/RelWithDebInfo/buttons_test
 
 
 #############################################

@@ -16,6 +16,8 @@ build SDL2main: phony external/SDL2/RelWithDebInfo/libSDL2main.a
 
 build XSUIlib: phony RelWithDebInfo/libXSUIlib.a
 
+build buttons_test: phony test/RelWithDebInfo/buttons_test
+
 build libSDL2-2.0.dylib: phony external/SDL2/RelWithDebInfo/libSDL2-2.0.dylib
 
 build libSDL2.a: phony external/SDL2/RelWithDebInfo/libSDL2.a
@@ -41,6 +43,12 @@ build all: phony all$:RelWithDebInfo
 # Folder: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/external/SDL2
 
 build external/SDL2/all: phony external/SDL2/all$:RelWithDebInfo
+
+
+#############################################
+# Folder: /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/test
+
+build test/all: phony test/all$:RelWithDebInfo
 
 build clean: phony clean$:RelWithDebInfo
 

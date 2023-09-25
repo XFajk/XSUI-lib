@@ -59,9 +59,10 @@ build CMakeFiles/buttons_test.dir/Debug/buttons/buttons.c.o: C_COMPILER__buttons
 #############################################
 # Link the executable Debug/buttons_test
 
-build Debug/buttons_test: C_EXECUTABLE_LINKER__buttons_test_Debug CMakeFiles/buttons_test.dir/Debug/buttons/buttons.c.o | /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/../build/Debug/libXSUIlib.a
+build Debug/buttons_test: C_EXECUTABLE_LINKER__buttons_test_Debug CMakeFiles/buttons_test.dir/Debug/buttons/buttons.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5
-  LINK_LIBRARIES = /Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/../build/Debug/libXSUIlib.a
+  LINK_LIBRARIES = -Wl,-rpath,/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/../build/Release  -lXSUIlib  -lSDL2
+  LINK_PATH = -L/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/test/../build/Release
   OBJECT_DIR = CMakeFiles/buttons_test.dir/Debug
   POST_BUILD = :
   PRE_LINK = :

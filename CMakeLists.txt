@@ -6,8 +6,14 @@ set(CMAKE_C_STANDARD 23)
 add_library(${PROJECT_NAME} src/xsui.c include/xsui.h src/xsCore.c include/xsCore.h src/xsMath.c include/xsMath.h)
 
 add_subdirectory(external/SDL2)
+add_subdirectory(test)
 
 target_include_directories(${PROJECT_NAME} PUBLIC include)
 target_link_directories(${PROJECT_NAME} PUBLIC lib)
 
 target_link_libraries(${PROJECT_NAME} SDL2 SDL2main)
+
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy
+        ${CMAKE_BINARY_DIR}/external/SDL2/Release/libSDL2-2.0.0.dylib  # Adjust the path as needed
+        $<TARGET_FILE_DIR:${PROJECT_NAME}>)

@@ -1,13 +1,13 @@
-if (NOT EXISTS "/workspaces/XSUI-lib/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/workspaces/XSUI-lib/build/install_manifest.txt\"")
-endif(NOT EXISTS "/workspaces/XSUI-lib/build/install_manifest.txt")
+if (NOT EXISTS "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/install_manifest.txt\"")
+endif(NOT EXISTS "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/install_manifest.txt")
 
-file(READ "/workspaces/XSUI-lib/build/install_manifest.txt" files)
+file(READ "/Users/rudolfvrbensky/Documents/Programing/C/XSUIlib/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
     execute_process(
-        COMMAND /home/codespace/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E remove "$ENV{DESTDIR}${file}"
+        COMMAND /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove "$ENV{DESTDIR}${file}"
         OUTPUT_VARIABLE rm_out
         RESULT_VARIABLE rm_retval
     )

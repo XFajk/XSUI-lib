@@ -5,7 +5,7 @@
 -- Platform: Darwin-22.6.0
 -- 64-bit:   TRUE
 -- Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
--- Revision: SDL-2.28.3-no-vcs
+-- Revision: SDL-2.28.3-g581abf2
 -- 
 -- Subsystems:
 --   Atomic:	ON

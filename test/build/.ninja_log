@@ -1,3 +1,7 @@
 # ninja log v5
-158	324	1695583736534393679	Debug/buttons_test	257f4610075236b2
+186	349	1695681708217161616	Release/buttons_test	b4b9763bf5d24086
+1	186	1695681708055171989	CMakeFiles/buttons_test.dir/Release/buttons/buttons.c.o	f8c3d2cf09b0c445
 0	158	1695583736369940063	CMakeFiles/buttons_test.dir/Debug/buttons/buttons.c.o	d5a3cd2a89df1a63
+158	324	1695583736534393679	Debug/buttons_test	257f4610075236b2
+1	175	1695682050155818858	CMakeFiles/buttons_test.dir/Release/buttons/buttons.c.o	f8c3d2cf09b0c445
+176	342	1695682050319729817	Release/buttons_test	b4b9763bf5d24086

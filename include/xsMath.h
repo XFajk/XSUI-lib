@@ -9,8 +9,7 @@
 typedef struct Vec2 {
     float x;
     float y;
-};
+} Vec2;
 
-int* Vec2ToInt(Vec2 vec);
 
 #endif // XSUILIB_XSMATH_H
