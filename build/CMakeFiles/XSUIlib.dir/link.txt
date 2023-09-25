@@ -1,0 +1,2 @@
+/usr/bin/ar qc libXSUIlib.a CMakeFiles/XSUIlib.dir/src/xsui.c.o CMakeFiles/XSUIlib.dir/src/xsCore.c.o CMakeFiles/XSUIlib.dir/src/xsMath.c.o
+/usr/bin/ranlib libXSUIlib.a

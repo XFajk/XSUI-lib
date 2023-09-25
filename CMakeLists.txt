@@ -3,7 +3,7 @@ project(XSUIlib C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_library(${PROJECT_NAME} src/xsui.c include/xsui.h)
+add_library(${PROJECT_NAME} src/xsui.c include/xsui.h src/xsCore.c include/xsCore.h src/xsMath.c include/xsMath.h)
 
 add_subdirectory(external/SDL2)
 
