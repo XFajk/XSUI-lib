@@ -11,5 +11,4 @@ typedef struct Vec2 {
     float y;
 } Vec2;
 
-
 #endif // XSUILIB_XSMATH_H

@@ -15,6 +15,5 @@ target_link_libraries(${PROJECT_NAME} SDL2 SDL2main)
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy
-        ${CMAKE_BINARY_DIR}/external/SDL2/libSDL2-2.0.so.0.2800.3  # Adjust the path as needed
+        $<TARGET_FILE:SDL2>  # Location of the SDL2 shared library
         $<TARGET_FILE_DIR:${PROJECT_NAME}>)
-        

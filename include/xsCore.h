@@ -22,10 +22,11 @@ typedef struct xsCore {
 
 char xsInitCore(xsCore *core, const char* win_title, Vec2 win_pos, Vec2 win_size, unsigned int win_flags);
 
-char xsRunCore(xsCore *core, char (*game_loop)(xsCore *core, xsEvent *event));
+char xsRunCore(xsCore *core, void (*game_loop)(xsCore *core, xsEvent *event));
+void xsUpdateCoreState(xsCore* core);
 
 void xsFreeCore(xsCore *core);
 
-char xsBasicGameLoop(xsCore *core, xsEvent *event);
+void xsBasicGameLoop(xsCore *core, xsEvent *event);
 
 #endif // XSUILIB_XSCORE_H
