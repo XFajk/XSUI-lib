@@ -207,6 +207,19 @@ uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f external/SDL2/CMakeFiles/uninstall.dir/build.make external/SDL2/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+#=============================================================================
+# Target rules for targets named buttons_test
+
+# Build rule for target.
+buttons_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 buttons_test
+.PHONY : buttons_test
+
+# fast build rule for target.
+buttons_test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/buttons_test.dir/build.make test/CMakeFiles/buttons_test.dir/build
+.PHONY : buttons_test/fast
+
 src/xsCore.o: src/xsCore.c.o
 .PHONY : src/xsCore.o
 
@@ -294,6 +307,7 @@ help:
 	@echo "... SDL2_test"
 	@echo "... SDL2main"
 	@echo "... XSUIlib"
+	@echo "... buttons_test"
 	@echo "... src/xsCore.o"
 	@echo "... src/xsCore.i"
 	@echo "... src/xsCore.s"

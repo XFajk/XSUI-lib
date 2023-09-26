@@ -8,6 +8,8 @@
 typedef struct SDL_Window SDL_Window;
 typedef struct SDL_Renderer SDL_Renderer;
 
+typedef union SDL_Event xsEvent;
+
 typedef struct Vec2 Vec2;
 
 typedef struct xsCore {
@@ -20,8 +22,10 @@ typedef struct xsCore {
 
 char xsInitCore(xsCore *core, const char* win_title, Vec2 win_pos, Vec2 win_size, unsigned int win_flags);
 
-char xsRunCore(xsCore *core);
+char xsRunCore(xsCore *core, char (*game_loop)(xsCore *core, xsEvent *event));
 
 void xsFreeCore(xsCore *core);
+
+char xsBasicGameLoop(xsCore *core, xsEvent *event);
 
 #endif // XSUILIB_XSCORE_H

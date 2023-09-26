@@ -379,8 +379,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL2-static.dir/src/video/x11/edid-parse.c.o.d"
   "CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.o"
   "CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.o.d"
-  "libSDL2d.a"
-  "libSDL2d.pdb"
+  "libSDL2.a"
+  "libSDL2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

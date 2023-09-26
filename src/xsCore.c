@@ -45,8 +45,13 @@ char xsInitCore(xsCore *core, const char* win_title, Vec2 win_pos, Vec2 win_size
     return 0;
 }
 
-
-
+char xsRunCore(xsCore *core, char (*game_loop)(xsCore *core, xsEvent *event)) {
+    xsEvent event;
+    while (!core->exit_flag) {
+        game_loop(core, &event);
+    }
+    return 0;
+}
 
 void xsFreeCore(xsCore *core) {
     core->exit_flag = 1;
@@ -55,3 +60,16 @@ void xsFreeCore(xsCore *core) {
     SDL_Quit();
 }
 
+char xsBasicGameLoop(xsCore *core, xsEvent *event) {
+    while (SDL_PollEvent(event)) {
+        switch (event->type) {
+            case SDL_QUIT:
+                core->exit_flag = 1;
+                break;
+            default:
+                break;
+        }
+    }
+
+    return 0;
+}
