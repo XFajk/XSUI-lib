@@ -5,6 +5,7 @@
 #ifndef XSUILIB_XSUI_H
 #define XSUILIB_XSUI_H
 
+#include <xsTypes.h>
 #include <xsCore.h>
 #include <xsMath.h>
 

@@ -5,28 +5,31 @@
 #ifndef XSUILIB_XSCORE_H
 #define XSUILIB_XSCORE_H
 
-typedef struct SDL_Window SDL_Window;
-typedef struct SDL_Renderer SDL_Renderer;
+typedef struct SDL_Window xsWindow;
+typedef struct SDL_Renderer xsRenderer;
 
 typedef union SDL_Event xsEvent;
 
-typedef struct Vec2 Vec2;
+typedef struct Vec2i Vec2i;
 
 typedef struct xsCore {
 
-    SDL_Window *window;
-    SDL_Renderer *renderer;
+    xsWindow *window;
+    xsRenderer *renderer;
     char exit_flag;
+    xsEvent* event;
 
 } xsCore;
 
-char xsInitCore(xsCore *core, const char* win_title, Vec2 win_pos, Vec2 win_size, unsigned int win_flags);
+int xsInitCore(xsCore *core, const char* win_title, Vec2i win_pos, Vec2i win_size, unsigned int win_flags);
 
-char xsRunCore(xsCore *core, void (*game_loop)(xsCore *core, xsEvent *event));
+void xsUpdateCoreEvents(xsCore* core);
 void xsUpdateCoreState(xsCore* core);
+
+int xsEventQuitCore(xsCore* core);
 
 void xsFreeCore(xsCore *core);
 
-void xsBasicGameLoop(xsCore *core, xsEvent *event);
+void xsBasicAppLoop(xsCore *core);
 
 #endif // XSUILIB_XSCORE_H

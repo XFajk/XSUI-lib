@@ -3,14 +3,13 @@
 //
 
 #include <xsui.h>
-#include <stdio.h>
 
 int main() {
 
     xsCore core;
-    xsInitCore(&core, "window", (Vec2){10.f, 10.f}, (Vec2){640.f, 480.f}, 0);
+    xsInitCore(&core, "window", (Vec2i){10, 10}, (Vec2i){640, 480}, 0);
 
-    xsRunCore(&core, xsBasicGameLoop);
+    xsBasicAppLoop(&core);
 
     xsFreeCore(&core);
     return 0;
