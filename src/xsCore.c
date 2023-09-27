@@ -22,6 +22,9 @@
 // Returns:
 //   0 on success, 1 on failure.
 int xsInitCore(xsCore *core, const char* win_title, Vec2i win_pos, Vec2i win_size, Uint32 win_flags) {
+
+    core->exit_flag = 0;
+
     // Initialize the SDL video subsystem
     if (!SDL_Init(SDL_INIT_VIDEO)) {
         printf("INFO: SDL initialized successfully\n");
