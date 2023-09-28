@@ -10,28 +10,29 @@
 typedef struct xsCore xsCore;
 
 enum xsButtonState {
-    XSUI_NOTHING_STATE,
-    XSUI_HOVERING_OVER,
-    XSUI_INTERACTION
+    XSUI_BUTTON_NOTHING_STATE,
+    XSUI_BUTTON_HOVERING_OVER_STATE,
+    XSUI_BUTTON_INTERACTION_STATE
 };
 
 enum xsButtonFlags {
-    XSUI_INTERACTION_ON_CLICK = 0x1,
-    XSUI_INTERACTION_ON_RELEASE = 0x2,
-    XSUI_INTERACTION_ON_HOLD = 0x4,
+    XSUI_BUTTON_INTERACTION_ON_CLICK = 0x1,
+    XSUI_BUTTON_INTERACTION_ON_RELEASE = 0x2,
+    XSUI_BUTTON_INTERACTION_ON_HOLD = 0x4,
     
-    XSUI_CHANGE_COLOR_ON_HOVER = 0x8,
-    XSUI_CHANGE_COLOR_ON_INTERACTION = 0x10,
+    XSUI_BUTTON_CHANGE_COLOR_ON_HOVER = 0x8,
+    XSUI_BUTTON_CHANGE_COLOR_ON_INTERACTION = 0x10,
 
-    XSUI_EXPAND_ON_HOVER = 0x20,
-    XSUI_EXPAND_ON_INTERACTION = 0x40,
+    XSUI_BUTTON_EXPAND_ON_HOVER = 0x20,
+    XSUI_BUTTON_EXPAND_ON_INTERACTION = 0x40,
 
-    XSUI_RETRACT_ON_HOVER = 0x80,
-    XSUI_RETRACT_ON_INTERACTION = 0x100,
+    XSUI_BUTTON_RETRACT_ON_HOVER = 0x80,
+    XSUI_BUTTON_RETRACT_ON_INTERACTION = 0x100,
 };
 
 typedef struct xsButton {
     unsigned int flags;
+    xsCore *core;
 
     xsVec2f position;
     xsVec2f size;
@@ -47,8 +48,10 @@ typedef struct xsButton {
     enum xsButtonState state;
 } xsButton;
 
-xsButton xsCreateButton(xsVec2f position, xsVec2f size, xsColor color, unsigned int flags);
+xsButton xsCreateButton(xsVec2f position, xsVec2f size, xsColor color, unsigned int flags, xsCore *core);
 
-void xsRenderButtonBody(xsCore* core, xsButton* button);
+void xsRenderButtonBody(xsButton* button);
+
+void xsUpdateButtonState(xsButton* button);
 
 #endif //XSUILIB_XSBUTTON_H
