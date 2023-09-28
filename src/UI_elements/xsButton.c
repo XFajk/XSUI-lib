@@ -40,7 +40,7 @@ void xsUpdateButtonState(xsButton* button) {
         button->state = XSUI_BUTTON_HOVERING_OVER_STATE;
         button->color = button->hover_color;
         if (button->flags & XSUI_BUTTON_CHANGE_COLOR_ON_HOVER) button->color = button->interaction_color;
-        if (button->core->mouse_state[0]) {
+        if (button->core->mouse_state & SDL_BUTTON(SDL_BUTTON_LEFT)) {
             if (button->flags & XSUI_BUTTON_INTERACTION_ON_CLICK) {
 
             }
@@ -48,7 +48,6 @@ void xsUpdateButtonState(xsButton* button) {
                 
             }
             if (button->flags & XSUI_BUTTON_INTERACTION_ON_RELEASE) {
-                
             }
 
         }
@@ -57,3 +56,4 @@ void xsUpdateButtonState(xsButton* button) {
         button->state = XSUI_BUTTON_NOTHING_STATE;
         if (button->flags & XSUI_BUTTON_CHANGE_COLOR_ON_HOVER) button->color = button->nothing_color;
     }
+}
