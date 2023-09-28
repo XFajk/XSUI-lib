@@ -38,11 +38,11 @@ typedef struct xsButton {
     xsRect rect;
 
     xsColor color;
-    xsColor nothingColor;
-    xsColor hoverColor;
-    xsColor interactionColor;
+    xsColor nothing_color;
+    xsColor hover_color;
+    xsColor interaction_color;
 
-    xsVec2f resizeOffset;
+    xsVec2f resize_offset;
 
     enum xsButtonState state;
 } xsButton;

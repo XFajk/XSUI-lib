@@ -17,11 +17,11 @@ xsButton xsCreateButton(xsVec2f position, xsVec2f size, xsColor color, unsigned 
         .rect = (xsRect){lroundf(position.x-size.x/2.f), lroundf(position.y-size.y/2.f), lroundf(size.x), lroundf(size.y)},
 
         .color = color,
-        .nothingColor = color,
-        .hoverColor = flags & XSUI_CHANGE_COLOR_ON_HOVER ? XSUI_COLOR_DARK_GRAY : XSUI_COLOR_TRANSPARENT,
-        .interactionColor = flags & XSUI_CHANGE_COLOR_ON_INTERACTION ? XSUI_COLOR_LIGHT_GRAY : XSUI_COLOR_TRANSPARENT,
+        .nothing_color = color,
+        .hover_color = flags & XSUI_CHANGE_COLOR_ON_HOVER ? XSUI_COLOR_DARK_GRAY : XSUI_COLOR_TRANSPARENT,
+        .interaction_color = flags & XSUI_CHANGE_COLOR_ON_INTERACTION ? XSUI_COLOR_LIGHT_GRAY : XSUI_COLOR_TRANSPARENT,
 
-        .resizeOffset = (xsVec2f){0.f, 0.f},
+        .resize_offset = (xsVec2f){0.f, 0.f},
 
         .flags = flags,
     };
