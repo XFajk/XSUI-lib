@@ -5,25 +5,30 @@
 #ifndef XSUILIB_XSCORE_H
 #define XSUILIB_XSCORE_H
 
+#include <xsTypes.h>
+
 typedef struct SDL_Window xsWindow;
 typedef struct SDL_Renderer xsRenderer;
 
 typedef union SDL_Event xsEvent;
-
-typedef struct xsVec2i xsVec2i;
 
 typedef struct xsCore {
 
     xsWindow *window;
     xsRenderer *renderer;
     char exit_flag;
+
     xsEvent* event;
+    const unsigned char *keyboard_state;
+    int number_of_keys;
+    unsigned int mouse_state;
+    xsVec2i mouse_pos;
 
 } xsCore;
 
 int xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win_size, unsigned int win_flags);
 
-void xsUpdateCoreEvents(xsCore* core);
+void xsUpdateCoreRendering(xsCore* core);
 void xsUpdateCoreState(xsCore* core);
 
 int xsEventQuitCore(xsCore* core);

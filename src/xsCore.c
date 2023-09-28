@@ -77,24 +77,27 @@ int xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win
     return 0;
 }
 
-// Updates the core's state
+// Updates the core's rendering
 //
 // This function presents the renderer's content to the window.
 //
 // Parameters:
 //   core: Pointer to the XSUI Core structure.
-void xsUpdateCoreState(xsCore* core) {
+void xsUpdateCoreRendering(xsCore* core) {
     SDL_RenderPresent(core->renderer);
 }
 
-// Updates the core's events
+// Updates the core's state
 //
-// Polls for SDL events and stores them in the core's event structure.
+// Polls for SDL events and stores them in the core's event structure plus it initializes the
+// mouse and keyboard states. 
 //
 // Parameters:
 //   core: Pointer to the XSUI Core structure.
-void xsUpdateCoreEvents(xsCore* core) {
+void xsUpdateCoreState(xsCore* core) {
     SDL_PollEvent(core->event);
+    core->mouse_state = SDL_GetMouseState(&core->mouse_pos.x, &core->mouse_pos.y);
+    core->keyboard_state = SDL_GetKeyboardState(&core->number_of_keys);
 }
 
 // Checks if a quit event occurred
@@ -135,7 +138,7 @@ void xsFreeCore(xsCore *core) {
 //   event: Pointer to the XSUI Event structure.
 void xsBasicAppLoop(xsCore *core) {
     while (!core->exit_flag) {
-        xsUpdateCoreEvents(core);
+        xsUpdateCoreState(core);
         if (xsEventQuitCore(core)) {
             core->exit_flag = 1;
         }
