@@ -5,15 +5,29 @@
 #ifndef XSUILIB_XSTYPES_H
 #define XSUILIB_XSTYPES_H
 
-typedef struct Vec2f {
+typedef struct xsVec2f {
     float x;
     float y;
-} Vec2f;
+} xsVec2f;
 
 
-typedef struct Vec2i {
+typedef struct xsVec2i {
     int x;
     int y;
-} Vec2i;
+} xsVec2i;
+
+typedef struct xsColor {
+    int r;
+    int g;
+    int b;
+    int a;
+} xsColor;
+
+typedef struct xsRect {
+    int x;
+    int y;
+    int w;
+    int h;
+} xsRect;
 
 #endif //XSUILIB_XSTYPES_H

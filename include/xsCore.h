@@ -10,7 +10,7 @@ typedef struct SDL_Renderer xsRenderer;
 
 typedef union SDL_Event xsEvent;
 
-typedef struct Vec2i Vec2i;
+typedef struct xsVec2i xsVec2i;
 
 typedef struct xsCore {
 
@@ -21,7 +21,7 @@ typedef struct xsCore {
 
 } xsCore;
 
-int xsInitCore(xsCore *core, const char* win_title, Vec2i win_pos, Vec2i win_size, unsigned int win_flags);
+int xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win_size, unsigned int win_flags);
 
 void xsUpdateCoreEvents(xsCore* core);
 void xsUpdateCoreState(xsCore* core);
