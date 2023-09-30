@@ -16,18 +16,14 @@ enum xsButtonState {
 };
 
 enum xsButtonFlags {
-    XSUI_BUTTON_INTERACTION_ON_CLICK = 0x1,
-    XSUI_BUTTON_INTERACTION_ON_RELEASE = 0x2,
-    XSUI_BUTTON_INTERACTION_ON_HOLD = 0x4,
-    
-    XSUI_BUTTON_CHANGE_COLOR_ON_HOVER = 0x8,
-    XSUI_BUTTON_CHANGE_COLOR_ON_INTERACTION = 0x10,
+    XSUI_BUTTON_CHANGE_COLOR_ON_HOVER = 0x1,
+    XSUI_BUTTON_CHANGE_COLOR_ON_INTERACTION = 0x2,
 
-    XSUI_BUTTON_EXPAND_ON_HOVER = 0x20,
-    XSUI_BUTTON_EXPAND_ON_INTERACTION = 0x40,
+    XSUI_BUTTON_EXPAND_ON_HOVER = 0x4,
+    XSUI_BUTTON_EXPAND_ON_INTERACTION = 0x8,
 
-    XSUI_BUTTON_RETRACT_ON_HOVER = 0x80,
-    XSUI_BUTTON_RETRACT_ON_INTERACTION = 0x100,
+    XSUI_BUTTON_RETRACT_ON_HOVER = 0x10,
+    XSUI_BUTTON_RETRACT_ON_INTERACTION = 0x20,
 };
 
 typedef struct xsButton {
@@ -45,13 +41,19 @@ typedef struct xsButton {
 
     xsVec2f resize_offset;
 
+    char clicked;
+    char _was_clicked;
+
+    char holding;
+    char released;
+
     enum xsButtonState state;
 } xsButton;
 
-xsButton xsCreateButton(xsVec2f position, xsVec2f size, xsColor color, unsigned int flags, xsCore *core);
+xsButton xsCreateButton(xsCore *core, xsVec2f position, xsVec2f size, xsColor color, unsigned int flags);
 
-void xsRenderButtonBody(xsButton* button);
+void xsDrawButtonBody(xsButton* button);
 
-void xsUpdateButtonState(xsButton* button);
+void xsUpdateButtonState(xsButton* button, int interaction_starter);
 
 #endif //XSUILIB_XSBUTTON_H

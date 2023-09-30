@@ -8,8 +8,13 @@
 
 #include <SDL.h>
 
+void xsSetBackgroundColor(xsCore *core, xsColor color) {
+    SDL_SetRenderDrawColor(core->renderer, color.r, color.g, color.b, color.a);
+    SDL_RenderClear(core->renderer);
+}
+
 void xsDrawRect(xsCore *core, xsRect rect, xsColor color) {
     SDL_SetRenderDrawColor(core->renderer, color.r, color.g, color.b, color.a);
     SDL_Rect sdl_rect = {rect.x, rect.y, rect.w, rect.h};
-    SDL_RenderDrawRect(core->renderer, &sdl_rect);
+    SDL_RenderFillRect(core->renderer, &sdl_rect);
 }

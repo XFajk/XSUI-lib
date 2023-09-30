@@ -21,7 +21,7 @@
 //
 // Returns:
 //   0 on success, 1 on failure.
-int xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win_size, Uint32 win_flags) {
+char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win_size, Uint32 win_flags) {
     core->exit_flag = 0;
 
     // Initialize the SDL video subsystem
@@ -109,7 +109,7 @@ void xsUpdateCoreState(xsCore* core) {
 //
 // Returns:
 //   1 if the event occurs and 0 if it doesn't
-int xsEventQuitCore(xsCore* core) {
+char xsEventQuitCore(xsCore* core) {
     return core->event->type == SDL_QUIT;
 }
 

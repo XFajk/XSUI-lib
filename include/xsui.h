@@ -6,7 +6,10 @@
 #define XSUILIB_XSUI_H
 
 #include <xsTypes.h>
+#include <xsUtils.h>
 #include <xsCore.h>
 #include <xsMath.h>
+
+#include <UI_elements/xsButton.h>
 
 #endif //XSUILIB_XSUI_H

@@ -26,12 +26,12 @@ typedef struct xsCore {
 
 } xsCore;
 
-int xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win_size, unsigned int win_flags);
+char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win_size, unsigned int win_flags);
 
 void xsUpdateCoreRendering(xsCore* core);
 void xsUpdateCoreState(xsCore* core);
 
-int xsEventQuitCore(xsCore* core);
+char xsEventQuitCore(xsCore* core);
 
 void xsFreeCore(xsCore *core);
 
