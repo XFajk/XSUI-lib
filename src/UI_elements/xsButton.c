@@ -53,9 +53,12 @@ void xsUpdateButtonState(xsButton* button, int interaction_starter) {
                 button->clicked = 0;
                 button->_was_clicked = 1;
             }
+            button->holding = 1;
         } else {
+            button->released = button->holding ? 1 : 0;
             button->clicked = 0;
             button->_was_clicked = 0;
+            button->holding = 0;
         }
     } else {
         button->state = XSUI_BUTTON_NOTHING_STATE;

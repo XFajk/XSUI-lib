@@ -22,7 +22,8 @@ void AppLoop(xsCore *core) {
         xsUpdateButtonState(&btn, core->mouse_state & 0b1);
         xsDrawButtonBody(&btn);
 
-        if (btn.clicked) printf("button was clicked\n");
+        if (btn.clicked) printf("the button was clicked\n");
+        if (btn.released) printf("the button was released\n");
 
         xsUpdateCoreRendering(core);
     }
