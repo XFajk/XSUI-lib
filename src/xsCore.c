@@ -73,6 +73,7 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
         i++;
     }
 
+    core->_last_time = SDL_GetPerformanceCounter();
 
     return 0;
 }
@@ -98,7 +99,15 @@ void xsUpdateCoreState(xsCore* core) {
     SDL_PollEvent(core->event);
     core->mouse_state = SDL_GetMouseState(&core->mouse_pos.x, &core->mouse_pos.y);
     core->keyboard_state = SDL_GetKeyboardState(&core->number_of_keys);
+
+    Uint64 currentTicks = SDL_GetPerformanceCounter();
+    Uint64 frequency = SDL_GetPerformanceFrequency();
+
+    core->frame_time= (float)(currentTicks - core->_last_time) / (float)frequency*60.f;
+
+    core->_last_time = currentTicks;
 }
+
 
 // Checks if a quit event occurred
 //

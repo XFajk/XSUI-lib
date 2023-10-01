@@ -31,15 +31,20 @@ typedef struct xsButton {
     xsCore *core;
 
     xsVec2f position;
+
     xsVec2f size;
-    xsRect rect;
+    xsVec2f original_size;
+    xsVec2f hover_resize_offset;
+    xsVec2f interaction_resize_offset;
+
+    float hover_resize_speed;
+    float interaction_resize_speed;
 
     xsColor color;
     xsColor nothing_color;
     xsColor hover_color;
     xsColor interaction_color;
 
-    xsVec2f resize_offset;
 
     char clicked;
     char _was_clicked;

@@ -18,6 +18,9 @@ typedef struct xsCore {
     xsRenderer *renderer;
     char exit_flag;
 
+    unsigned long _last_time;
+    float frame_time;
+
     xsEvent* event;
     const unsigned char *keyboard_state;
     int number_of_keys;
