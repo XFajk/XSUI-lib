@@ -18,6 +18,8 @@ void AppLoop(xsCore *core) {
     btn.interaction_resize_offset = (xsVec2f){16.f, 12.f};
     btn.interaction_resize_speed = btn.hover_resize_speed;
 
+    xsFont *basic_font = xsCreateFont(core, "Roboto-Black.ttf", 24, (xsColor){0, 255, 0, 255}, XSUI_FONT_BLENDED);
+
     while (!core->exit_flag) {
         xsUpdateCoreState(core);
         core->exit_flag = xsEventQuitCore(core);
@@ -27,11 +29,12 @@ void AppLoop(xsCore *core) {
         xsUpdateButtonState(&btn, core->mouse_state & 0b1);
         xsDrawButtonBody(&btn);
 
-
-        printf("INFO: btn size: %f, %f\n", btn.size.x, btn.size.y);
+        xsDrawFont(basic_font, "Hello  world", (xsVec2i){50, 50});
 
         xsUpdateCoreRendering(core);
     }
+
+    xsFreeFont(basic_font);
 }
 
 int main() {

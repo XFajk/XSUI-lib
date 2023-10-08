@@ -17,10 +17,10 @@ typedef struct xsVec2i {
 } xsVec2i;
 
 typedef struct xsColor {
-    int r;
-    int g;
-    int b;
-    int a;
+    unsigned char r;
+    unsigned char g;
+    unsigned char b;
+    unsigned char a;
 } xsColor;
 
 typedef struct xsRect {

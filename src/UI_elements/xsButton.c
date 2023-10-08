@@ -111,6 +111,5 @@ void xsUpdateButtonState(xsButton* button, int interaction_starter) {
 
         button->size.x += ((button->original_size.x) - button->size.x) * button->hover_resize_speed * button->core->frame_time;
         button->size.y += ((button->original_size.y) - button->size.y) * button->hover_resize_speed * button->core->frame_time;
-
     }
 }

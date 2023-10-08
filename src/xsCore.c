@@ -5,6 +5,7 @@
 #include <xsTypes.h>
 
 #include <SDL.h>
+#include <SDL_ttf.h>
 #include <stdio.h>
 
 // Initializes the XSUI Core
@@ -32,6 +33,13 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
         return 1;
     }
 
+    if (!TTF_Init()) {
+        printf("INFO: SDL_TTF initialized successfully\n");
+    } else {
+        printf("FATAL ERROR: SDL_TTF failed to initialize: %s\n", SDL_GetError());
+        return 1;
+    }
+
     // Create an SDL window
     core->window = SDL_CreateWindow(
             win_title,
@@ -48,7 +56,7 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
     }
 
     // Create an SDL renderer
-    core->renderer = SDL_CreateRenderer(core->window, -1, SDL_RENDERER_SOFTWARE);
+    core->renderer = SDL_CreateRenderer(core->window, -1, SDL_RENDERER_ACCELERATED);
     if (core->renderer != NULL) {
         printf("INFO: SDL created renderer successfully\n");
     } else {
@@ -57,6 +65,7 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
         SDL_Quit();
         return 1;
     }
+    SDL_SetRenderDrawBlendMode(core->renderer, SDL_BLENDMODE_BLEND);
 
     core->event = malloc(sizeof(xsEvent));
     int max_fail_count = 10;
@@ -100,8 +109,8 @@ void xsUpdateCoreState(xsCore* core) {
     core->mouse_state = SDL_GetMouseState(&core->mouse_pos.x, &core->mouse_pos.y);
     core->keyboard_state = SDL_GetKeyboardState(&core->number_of_keys);
 
-    Uint64 currentTicks = SDL_GetPerformanceCounter();
-    Uint64 frequency = SDL_GetPerformanceFrequency();
+    unsigned long currentTicks = SDL_GetPerformanceCounter();
+    unsigned long frequency = SDL_GetPerformanceFrequency();
 
     core->frame_time= (float)(currentTicks - core->_last_time) / (float)frequency*60.f;
 
@@ -135,6 +144,7 @@ void xsFreeCore(xsCore *core) {
     SDL_DestroyWindow(core->window);
     free(core->event);
     SDL_Quit();
+    TTF_Quit();
 }
 
 // A basic game loop for XSUI Core

@@ -9,13 +9,13 @@
 
 typedef struct xsCore xsCore;
 
-enum xsButtonState {
+typedef enum xsButtonState {
     XSUI_BUTTON_NOTHING_STATE,
     XSUI_BUTTON_HOVERING_OVER_STATE,
     XSUI_BUTTON_INTERACTION_STATE
-};
+} xsButtonState;
 
-enum xsButtonFlags {
+typedef enum xsButtonFlags {
     XSUI_BUTTON_CHANGE_COLOR_ON_HOVER = 0x1,
     XSUI_BUTTON_CHANGE_COLOR_ON_INTERACTION = 0x2,
 
@@ -24,7 +24,7 @@ enum xsButtonFlags {
 
     XSUI_BUTTON_RETRACT_ON_HOVER = 0x10,
     XSUI_BUTTON_RETRACT_ON_INTERACTION = 0x20,
-};
+} xsButtonFlags;
 
 typedef struct xsButton {
     unsigned int flags;

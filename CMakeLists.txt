@@ -8,15 +8,16 @@ add_library(${PROJECT_NAME}
         src/xsMath.c include/xsMath.h include/xsTypes.h
         include/UI_elements/xsButton.h src/UI_elements/xsButton.c
         src/xsUtils.c include/xsUtils.h include/xsConstants.h
-)
+        include/xsFont.h src/xsFont.c)
 
 add_subdirectory(external/SDL2)
+add_subdirectory(external/SDL_ttf-SDL2)
 add_subdirectory(test)
 
 target_include_directories(${PROJECT_NAME} PUBLIC include)
 target_link_directories(${PROJECT_NAME} PUBLIC lib)
 
-target_link_libraries(${PROJECT_NAME} SDL2 SDL2main)
+target_link_libraries(${PROJECT_NAME} PRIVATE SDL2 SDL2main SDL2_ttf)
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy
