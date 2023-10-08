@@ -38,6 +38,4 @@ char xsEventQuitCore(xsCore* core);
 
 void xsFreeCore(xsCore *core);
 
-void xsBasicAppLoop(xsCore *core);
-
 #endif // XSUILIB_XSCORE_H

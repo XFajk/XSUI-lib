@@ -19,6 +19,9 @@ void AppLoop(xsCore *core) {
     btn.interaction_resize_speed = btn.hover_resize_speed;
 
     xsFont *basic_font = xsCreateFont(core, "Roboto-Black.ttf", 24, (xsColor){0, 255, 0, 255}, XSUI_FONT_BLENDED);
+    if (basic_font == NULL) {
+        core->exit_flag = 1;
+    }
 
     while (!core->exit_flag) {
         xsUpdateCoreState(core);
@@ -34,6 +37,7 @@ void AppLoop(xsCore *core) {
         xsUpdateCoreRendering(core);
     }
 
+    
     xsFreeFont(basic_font);
 }
 

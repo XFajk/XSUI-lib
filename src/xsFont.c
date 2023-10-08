@@ -79,7 +79,9 @@ char xsDrawFont(xsFont *font, const char *text, xsVec2i position) {
 }
 
 void xsFreeFont(xsFont *font) {
-    TTF_CloseFont((TTF_Font *) font->font);
-    free(font);
+    if (font != NULL) {
+        TTF_CloseFont((TTF_Font *) font->font);
+        free(font);
+    }
 }
 

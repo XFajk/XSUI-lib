@@ -147,19 +147,3 @@ void xsFreeCore(xsCore *core) {
     TTF_Quit();
 }
 
-// A basic game loop for XSUI Core
-//
-// This function is a simple game loop that checks for SDL_QUIT events to set the
-// exit_flag when the window is closed.
-//
-// Parameters:
-//   core: Pointer to the XSUI Core structure.
-//   event: Pointer to the XSUI Event structure.
-void xsBasicAppLoop(xsCore *core) {
-    while (!core->exit_flag) {
-        xsUpdateCoreState(core);
-        if (xsEventQuitCore(core)) {
-            core->exit_flag = 1;
-        }
-    }
-}
