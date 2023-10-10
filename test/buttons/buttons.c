@@ -18,7 +18,7 @@ void AppLoop(xsCore *core) {
     btn.interaction_resize_offset = (xsVec2f){16.f, 12.f};
     btn.interaction_resize_speed = btn.hover_resize_speed;
 
-    xsFont *basic_font = xsCreateFont(core, "Roboto-Black.ttf", 24, (xsColor){0, 255, 0, 255}, XSUI_FONT_BLENDED);
+    xsFont *basic_font = xsCreateFont(core, "assets/Roboto-Black.ttf", 24, (xsColor){0, 255, 0, 255}, XSUI_FONT_BLENDED);
     if (basic_font == NULL) {
         core->exit_flag = 1;
     }
