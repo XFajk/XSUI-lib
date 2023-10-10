@@ -1,3 +1,0 @@
-C:/Users/ertyp/CLionProjects/XSUI-lib/build-VS/CMakeFiles/CMakeScratch/TryCompile-uku82k/CMakeFiles/cmTC_241fd.dir
-C:/Users/ertyp/CLionProjects/XSUI-lib/build-VS/CMakeFiles/CMakeScratch/TryCompile-uku82k/CMakeFiles/edit_cache.dir
-C:/Users/ertyp/CLionProjects/XSUI-lib/build-VS/CMakeFiles/CMakeScratch/TryCompile-uku82k/CMakeFiles/rebuild_cache.dir

@@ -20,7 +20,8 @@ add_custom_command(TARGET buttons_test POST_BUILD
         $<TARGET_FILE_DIR:buttons_test>)
 
 add_custom_command(TARGET buttons_test POST_BUILD
-        COMMAND ${CMAKE_COMMAND} -E copy
-        $<TARGET_FILE:XSUIlib>  # Location of the XSUIlib shared library
-        $<TARGET_FILE_DIR:buttons_test>)
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${PROJECT_SOURCE_DIR}/assets"
+        $<TARGET_FILE_DIR:buttons_test>/assets)
+
 
