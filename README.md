@@ -32,7 +32,7 @@ XSUI is easy to install and integrate into your project. Follow the steps in our
 
 ## Documentation
 
-Our comprehensive [documentation](link-to-docs) provides in-depth information about XSUI's functions, structures, and best practices. It's a valuable resource for both beginners and experienced developers.
+Our comprehensive [documentation](https://github.com/XFajk/XSUI-lib/wiki) provides in-depth information about XSUI's functions, structures, and best practices. It's a valuable resource for both beginners and experienced developers.
 
 ## Compatibility
 
