@@ -7,21 +7,22 @@
 
 void AppLoop(xsCore *core) {
 
-    xsButton btn = xsCreateButton(
-            core,(xsVec2f) {200.f, 200.f}, (xsVec2f) {80.f, 40.f},
+    xsButton *btn = xsCreateButton(
+            core,(xsVec2f) {200.f, 200.f}, (xsVec2f) {70.f, 20.f},
             (xsColor) {255, 0, 0, 255},
             XSUI_BUTTON_CHANGE_COLOR_ON_HOVER | XSUI_BUTTON_CHANGE_COLOR_ON_INTERACTION |
-             XSUI_BUTTON_RETRACT_ON_INTERACTION
+             XSUI_BUTTON_RETRACT_ON_INTERACTION | XSUI_BUTTON_EXPAND_ON_HOVER
     );
-    btn.hover_resize_offset = (xsVec2f){10.f, 6.f};
-    btn.hover_resize_speed = 0.5f;
-    btn.interaction_resize_offset = (xsVec2f){16.f, 12.f};
-    btn.interaction_resize_speed = btn.hover_resize_speed;
+    if (btn == NULL) core->exit_flag = 1;
+    btn->hover_resize_offset = (xsVec2f){5.f, 3.f};
+    btn->hover_resize_speed = 0.5f;
+    btn->interaction_resize_offset = (xsVec2f){8.f, 6.f};
+    btn->interaction_resize_speed = btn->hover_resize_speed;
 
-    xsFont *basic_font = xsCreateFont(core, "assets/Roboto-Black.ttf", 24, (xsColor){0, 255, 0, 255}, XSUI_FONT_BLENDED);
-    if (basic_font == NULL) {
-        core->exit_flag = 1;
-    }
+    xsFont *basic_font = xsCreateFont(core, "assets/Roboto-Black.ttf", 24, (xsColor){0, 0, 0, 255}, XSUI_FONT_BLENDED);
+    if (basic_font == NULL) core->exit_flag = 1;
+
+    btn->font = xsCopyFont(basic_font);
 
     while (!core->exit_flag) {
         xsUpdateCoreState(core);
@@ -29,15 +30,18 @@ void AppLoop(xsCore *core) {
 
         xsSetBackgroundColor(core, (xsColor){255, 255, 255, 255});
 
-        xsUpdateButtonState(&btn, core->mouse_state & 0b1);
-        xsDrawButtonBody(&btn);
+        // TODO: add the mouse button's constants
+        xsUpdateButtonState(btn, core->mouse_state & 0b1);
 
-        xsDrawFont(basic_font, "Hello  world", (xsVec2i){50, 50});
+        xsDrawButtonBody(btn);
+        xsDrawButtonText(btn, "Hello world", 0); // TODO: fix scaled
+
+        xsDrawFont(basic_font, "Hello  world", (xsVec2f){70.f, 70.f});
 
         xsUpdateCoreRendering(core);
     }
 
-    
+    xsFreeButton(btn);
     xsFreeFont(basic_font);
 }
 

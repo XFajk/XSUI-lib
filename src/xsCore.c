@@ -56,7 +56,8 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
     }
 
     // Create an SDL renderer
-    core->renderer = SDL_CreateRenderer(core->window, -1, SDL_RENDERER_ACCELERATED);
+    // TODO: give the user the ability to chose the renderer flags
+    core->renderer = SDL_CreateRenderer(core->window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
     if (core->renderer != NULL) {
         printf("INFO: SDL created renderer successfully\n");
     } else {
@@ -83,6 +84,8 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
     }
 
     core->_last_time = SDL_GetPerformanceCounter();
+
+    printf("\n");
 
     return 0;
 }

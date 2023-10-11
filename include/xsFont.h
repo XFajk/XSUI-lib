@@ -24,6 +24,10 @@ typedef struct xsFont {
     xsBasicFont* font;
     enum xsFontDrawMode draw_mode;
 
+    const char *_path;
+
+    xsVec2i current_text_size;
+
     xsCore *core;
 } xsFont;
 
@@ -31,8 +35,12 @@ xsFont* xsCreateFont(xsCore *core, const char *path_to_ttf, int size, xsColor co
 
 void xsChangeFont(xsFont *font, const char* path_to_ttf);
 
-char xsDrawFont(xsFont *font, const char *text, xsVec2i position);
+char xsDrawFont(xsFont *font, const char *text, xsVec2f position);
+char xsDrawFontScaled(xsFont *font, const char *text, xsVec2f position, xsVec2f size);
+char xsFontGetTextSize(xsFont *font, const char *text);
 
 void xsFreeFont(xsFont *font);
+
+xsFont* xsCopyFont(xsFont *font);
 
 #endif //XSUILIB_XSFONT_H
