@@ -20,7 +20,7 @@ XSUI (Xfajk's SDL User Interface) is a powerful and versatile library designed f
 
 To incorporate XSUI into your project, follow these steps:
 
-1. **Installation**: [Install XSUI](link-to-installation-guide) by including it in your project, ensuring you have SDL2 and other required dependencies.
+1. **Installation**: [Install XSUI](https://github.com/XFajk/XSUI-lib/wiki/Installation-Guide) by including it in your project, ensuring you have SDL2 and other required dependencies.
 
 2. **Tutorials**: Explore our [tutorials](link-to-tutorials) for comprehensive guidance on using XSUI to create your applications and UIs.
 
@@ -28,7 +28,7 @@ To incorporate XSUI into your project, follow these steps:
 
 ## Installation
 
-XSUI is easy to install and integrate into your project. Follow the steps in our [Installation Guide](link-to-installation-guide) to get started quickly.
+XSUI is easy to install and integrate into your project. Follow the steps in our [Installation Guide](https://github.com/XFajk/XSUI-lib/wiki/Installation-Guide) to get started quickly.
 
 ## Documentation
 
