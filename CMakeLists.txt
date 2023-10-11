@@ -4,12 +4,14 @@ project(XSUIlib C)
 set(CMAKE_C_STANDARD 23)
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY FALSE)
 
-add_library(${PROJECT_NAME} STATIC
+add_library(${PROJECT_NAME} STATIC SHARED
         src/xsui.c include/xsui.h src/xsCore.c include/xsCore.h
         src/xsMath.c include/xsMath.h include/xsTypes.h
         include/UI_elements/xsButton.h src/UI_elements/xsButton.c
         src/xsUtils.c include/xsUtils.h include/xsConstants.h
         include/xsFont.h src/xsFont.c)
+
+
 
 
 add_subdirectory(external/SDL2)
