@@ -36,7 +36,7 @@ void AppLoop(xsCore *core) {
         xsDrawButtonBody(btn);
         xsDrawButtonText(btn, "Hello world", 0); // TODO: fix scaled
 
-        xsDrawFont(basic_font, "Hello  world", (xsVec2f){70.f, 70.f});
+        //xsDrawFont(basic_font, "Hello  world", (xsVec2f){70.f, 70.f});
 
         xsUpdateCoreRendering(core);
     }
