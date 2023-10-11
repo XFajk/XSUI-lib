@@ -39,7 +39,7 @@ mark_as_advanced(SDL2TTF_DEBUG_POSTFIX)
 if(ANDROID OR MSVC)
     set(vendored_default TRUE)
 else()
-    set(vendored_default FALSE)
+    set(vendored_default TRUE)
 endif()
 
 set(sdl2ttf_install_enableable ON)
