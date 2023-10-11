@@ -24,7 +24,7 @@ To incorporate XSUI into your project, follow these steps:
 
 2. **Tutorials**: Explore our [tutorials](link-to-tutorials) for comprehensive guidance on using XSUI to create your applications and UIs.
 
-3. **Documentation**: For detailed information on the library's features and how to use them, refer to our [documentation](link-to-docs).
+3. **Documentation**: For detailed information on the library's features and how to use them, refer to our [documentation](https://github.com/XFajk/XSUI-lib/wiki).
 
 ## Installation
 
