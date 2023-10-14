@@ -7,7 +7,12 @@ add_executable(buttons_test buttons/buttons.c)
 
 target_include_directories(buttons_test PRIVATE ../include)
 target_link_directories(buttons_test PRIVATE ${PROJECT_SOURCE_DIR}/../build/Release/)
-target_link_libraries(buttons_test PRIVATE XSUIlib_static SDL2)
+
+if (MINGW) 
+        target_link_libraries(buttons_test PRIVATE XSUIlib_shared XSUIlib_static SDL2)
+else()
+        target_link_libraries(buttons_test PRIVATE XSUIlib_static SDL2)
+endif()
 
 if (MINGW)
     add_custom_command(TARGET buttons_test POST_BUILD
@@ -24,6 +29,16 @@ add_custom_command(TARGET buttons_test POST_BUILD
 add_custom_command(TARGET buttons_test POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy
         $<TARGET_FILE:SDL2_ttf>  # Location of the SDL2_ttf shared library
+        $<TARGET_FILE_DIR:buttons_test>)
+
+add_custom_command(TARGET buttons_test POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy
+        $<TARGET_FILE:SDL2_image>  # Location of the SDL2 shared library
+        $<TARGET_FILE_DIR:buttons_test>)
+
+add_custom_command(TARGET buttons_test POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy
+        $<TARGET_FILE:SDL2_mixer>  # Location of the SDL2_ttf shared library
         $<TARGET_FILE_DIR:buttons_test>)
 
 add_custom_command(TARGET buttons_test POST_BUILD

@@ -6,6 +6,8 @@
 
 #include <SDL.h>
 #include <SDL_ttf.h>
+#include <SDL_image.h>
+
 #include <stdio.h>
 
 // Initializes the XSUI Core
@@ -37,6 +39,18 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
         printf("INFO: SDL_TTF initialized successfully\n");
     } else {
         printf("FATAL ERROR: SDL_TTF failed to initialize: %s\n", SDL_GetError());
+        SDL_Quit();
+        return 1;
+    }
+
+    int IMG_flags = IMG_INIT_JPG | IMG_INIT_PNG;
+    int IMG_initted = IMG_Init(IMG_flags);
+    if ((IMG_initted & IMG_flags) == IMG_flags) {
+        printf("INFO: SDL_Image initialized successfully\n");
+    } else {
+        printf("FATAL ERROR: SDL_Image failed to initialize: %s\n", SDL_GetError());
+        TTF_Quit();
+        SDL_Quit();
         return 1;
     }
 
@@ -51,6 +65,8 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
         printf("INFO: SDL created window successfully\n");
     } else {
         printf("FATAL ERROR: SDL failed to create window: %s\n", SDL_GetError());
+        TTF_Quit();
+        IMG_Quit();
         SDL_Quit();
         return 1;
     }
@@ -63,6 +79,8 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
     } else {
         printf("FATAL ERROR: SDL failed to create renderer: %s\n", SDL_GetError());
         SDL_DestroyWindow(core->window);
+        TTF_Quit();
+        IMG_Quit();
         SDL_Quit();
         return 1;
     }
@@ -146,7 +164,8 @@ void xsFreeCore(xsCore *core) {
     SDL_DestroyRenderer(core->renderer);
     SDL_DestroyWindow(core->window);
     free(core->event);
-    SDL_Quit();
     TTF_Quit();
+    IMG_Quit();
+    SDL_Quit();
 }
 

@@ -48,7 +48,9 @@ void AppLoop(xsCore *core) {
 int main() {
 
     xsCore core;
-    xsInitCore(&core, "window", (xsVec2i){300, 300}, (xsVec2i){640, 480}, 0);
+    if (xsInitCore(&core, "window", (xsVec2i){300, 300}, (xsVec2i){640, 480}, 0)) {
+        return 1;
+    }
 
     AppLoop(&core);
 
