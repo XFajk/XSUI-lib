@@ -38,7 +38,7 @@ void AppLoop(xsCore *core) {
 
         //xsDrawFont(basic_font, "Hello  world", (xsVec2f){70.f, 70.f});
 
-        xsUpdateCoreRendering(core);
+        xsUpdateCoreDisplay(core);
     }
 
     xsFreeButton(btn);

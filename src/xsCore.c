@@ -44,8 +44,8 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
     }
 
     int IMG_flags = IMG_INIT_JPG | IMG_INIT_PNG;
-    int IMG_initted = IMG_Init(IMG_flags);
-    if ((IMG_initted & IMG_flags) == IMG_flags) {
+    int IMG_initialized = IMG_Init(IMG_flags);
+    if ((IMG_initialized & IMG_flags) == IMG_flags) {
         printf("INFO: SDL_Image initialized successfully\n");
     } else {
         printf("FATAL ERROR: SDL_Image failed to initialize: %s\n", SDL_GetError());
@@ -70,21 +70,11 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
         SDL_Quit();
         return 1;
     }
+    SDL_GetWindowSize(core->window, &core->window_width, &core->window_height);
 
     // Create an SDL renderer
     // TODO: give the user the ability to chose the renderer flags
-    core->renderer = SDL_CreateRenderer(core->window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-    if (core->renderer != NULL) {
-        printf("INFO: SDL created renderer successfully\n");
-    } else {
-        printf("FATAL ERROR: SDL failed to create renderer: %s\n", SDL_GetError());
-        SDL_DestroyWindow(core->window);
-        TTF_Quit();
-        IMG_Quit();
-        SDL_Quit();
-        return 1;
-    }
-    SDL_SetRenderDrawBlendMode(core->renderer, SDL_BLENDMODE_BLEND);
+    core->display = SDL_GetWindowSurface(core->window);
 
     core->event = malloc(sizeof(xsEvent));
     int max_fail_count = 10;
@@ -114,8 +104,8 @@ char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i wi
 //
 // Parameters:
 //   core: Pointer to the XSUI Core structure.
-void xsUpdateCoreRendering(xsCore* core) {
-    SDL_RenderPresent(core->renderer);
+void xsUpdateCoreDisplay(xsCore* core) {
+    SDL_UpdateWindowSurface(core->window);
 }
 
 // Updates the core's state
@@ -161,7 +151,6 @@ char xsEventQuitCore(xsCore* core) {
 //   core: Pointer to the XSUI Core structure.
 void xsFreeCore(xsCore *core) {
     core->exit_flag = 1;
-    SDL_DestroyRenderer(core->renderer);
     SDL_DestroyWindow(core->window);
     free(core->event);
     TTF_Quit();

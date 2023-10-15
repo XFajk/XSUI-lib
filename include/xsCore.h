@@ -8,14 +8,18 @@
 #include <xsTypes.h>
 
 typedef struct SDL_Window xsWindow;
-typedef struct SDL_Renderer xsRenderer;
+typedef struct SDL_Surface xsBasicImage;
 
 typedef union SDL_Event xsEvent;
 
 typedef struct xsCore {
 
     xsWindow *window;
-    xsRenderer *renderer;
+    int window_width;
+    int window_height;
+
+    xsBasicImage *display;
+
     char exit_flag;
 
     unsigned long _last_time;
@@ -31,7 +35,7 @@ typedef struct xsCore {
 
 char xsInitCore(xsCore *core, const char* win_title, xsVec2i win_pos, xsVec2i win_size, unsigned int win_flags);
 
-void xsUpdateCoreRendering(xsCore* core);
+void xsUpdateCoreDisplay(xsCore* core);
 void xsUpdateCoreState(xsCore* core);
 
 char xsEventQuitCore(xsCore* core);

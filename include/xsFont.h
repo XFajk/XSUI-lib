@@ -26,8 +26,6 @@ typedef struct xsFont {
 
     const char *_path;
 
-    xsVec2i current_text_size;
-
     xsCore *core;
 } xsFont;
 

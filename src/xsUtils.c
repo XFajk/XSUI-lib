@@ -9,12 +9,12 @@
 #include <SDL.h>
 
 void xsSetBackgroundColor(xsCore *core, xsColor color) {
-    SDL_SetRenderDrawColor(core->renderer, color.r, color.g, color.b, color.a);
-    SDL_RenderClear(core->renderer);
+    unsigned int fill_color = SDL_MapRGBA(core->display->format, color.r, color.g, color.b, color.a);
+    SDL_FillRect(core->display, NULL, fill_color);
 }
 
 void xsDrawRect(xsCore *core, xsRect rect, xsColor color) {
-    SDL_SetRenderDrawColor(core->renderer, color.r, color.g, color.b, color.a);
+    unsigned int fill_color = SDL_MapRGBA(core->display->format, color.r, color.g, color.b, color.a);
     SDL_Rect sdl_rect = {rect.x, rect.y, rect.w, rect.h};
-    SDL_RenderFillRect(core->renderer, &sdl_rect);
+    SDL_FillRect(core->display, &sdl_rect, fill_color);
 }

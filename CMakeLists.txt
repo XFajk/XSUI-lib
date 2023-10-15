@@ -16,6 +16,7 @@ add_library(XSUIlib_static STATIC
         include/UI_elements/xsButton.h src/UI_elements/xsButton.c
         src/xsUtils.c include/xsUtils.h include/xsConstants.h
         include/xsFont.h src/xsFont.c
+        include/xsImage.h src/xsImage.c
 )
 
 # setting for the static library
@@ -30,6 +31,7 @@ add_library(XSUIlib_shared SHARED
         include/UI_elements/xsButton.h src/UI_elements/xsButton.c
         src/xsUtils.c include/xsUtils.h include/xsConstants.h
         include/xsFont.h src/xsFont.c
+        include/xsImage.h src/xsImage.c
 )
 
 # setting for the shared library
