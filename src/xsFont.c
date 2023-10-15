@@ -146,6 +146,7 @@ void xsFreeFont(xsFont *font) {
         TTF_CloseFont((TTF_Font *) font->font);
         free(font);
     }
+    printf("INFO: the xsFont was freed successfully\n");
 }
 
 xsFont* xsCopyFont(xsFont *font) {

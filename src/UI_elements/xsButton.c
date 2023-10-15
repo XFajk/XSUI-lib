@@ -155,4 +155,5 @@ void xsUpdateButtonState(xsButton* button, int interaction_starter) {
 void xsFreeButton(xsButton *button) {
     xsFreeFont(button->font);
     free(button);
+    printf("INFO: the xsButton was freed successfully\n");
 }

@@ -156,5 +156,6 @@ void xsFreeCore(xsCore *core) {
     TTF_Quit();
     IMG_Quit();
     SDL_Quit();
+    printf("INFO: the core object and SDL-lib were freed successfully\n");
 }
 

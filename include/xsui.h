@@ -9,6 +9,7 @@
 #include <xsUtils.h>
 #include <xsCore.h>
 #include <xsMath.h>
+#include <xsImage.h>
 #include <xsFont.h>
 
 #include <UI_elements/xsButton.h>
