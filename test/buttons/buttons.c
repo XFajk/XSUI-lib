@@ -19,6 +19,8 @@ void AppLoop(xsCore *core) {
     btn->interaction_resize_offset = (xsVec2f){8.f, 6.f};
     btn->interaction_resize_speed = btn->hover_resize_speed;
 
+    btn->image = xsLoadImage(core, (xsColor){0, 0, 0, 0}, "assets/icon.png");
+
     xsFont *basic_font = xsCreateFont(core, "assets/Roboto-Black.ttf", 24, (xsColor){0, 0, 0, 255}, XSUI_FONT_BLENDED);
     if (basic_font == NULL) core->exit_flag = 1;
 
@@ -34,9 +36,8 @@ void AppLoop(xsCore *core) {
         xsUpdateButtonState(btn, core->mouse_state & 0b1);
 
         xsDrawButtonBody(btn);
-        xsDrawButtonText(btn, "Hello world", 0); // TODO: fix scaled
-
-        //xsDrawFont(basic_font, "Hello  world", (xsVec2f){70.f, 70.f});
+        xsDrawButtonImage(btn);
+        xsDrawButtonText(btn, "Hello world", 0);
 
         xsUpdateCoreDisplay(core);
     }

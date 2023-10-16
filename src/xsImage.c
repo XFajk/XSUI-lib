@@ -57,57 +57,65 @@ xsImage* xsLoadImage(xsCore* core, xsColor color_key, const char* path) {
 }
 
 void xsDrawImage(xsImage* image, xsVec2f pos) {
-    SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, image->w, image->h};
+    if (image != NULL) {
+        SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, image->w, image->h};
 
-    unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
+        unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
 
-    SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
-    SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
-    SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
+        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+        SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
+        SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
 
-    SDL_BlitSurface(copy_basic_image, NULL, image->core->display, &dstrect);
+        SDL_BlitSurface(copy_basic_image, NULL, image->core->display, &dstrect);
 
-    SDL_FreeSurface(copy_basic_image);
+        SDL_FreeSurface(copy_basic_image);
+    }
 }
 
 void xsDrawImageScaled(xsImage* image, xsVec2f pos, xsVec2f new_size) {
-    SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, new_size.x, new_size.y};
-    unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
+    if (image != NULL) {
+        SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, new_size.x, new_size.y};
+        unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
 
-    SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
-    SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
-    SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
+        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+        SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
+        SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
 
-    SDL_BlitScaled(copy_basic_image, NULL, image->core->display, &dstrect);
+        SDL_BlitScaled(copy_basic_image, NULL, image->core->display, &dstrect);
 
-    SDL_FreeSurface(copy_basic_image);
+        SDL_FreeSurface(copy_basic_image);
+    }
 }
 
 void xsDrawImageTo(xsImage* image, xsVec2f pos, xsImage* target) {
-     SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, image->w, image->h};
+    if (image != NULL || target != NULL) {
+        SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, image->w, image->h};
 
-    unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
+        unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
 
-    SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
-    SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
-    SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
+        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+        SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
+        SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
 
-    SDL_BlitSurface(copy_basic_image, NULL, target->image, &dstrect);
+        SDL_BlitSurface(copy_basic_image, NULL, target->image, &dstrect);
 
-    SDL_FreeSurface(copy_basic_image);
+        SDL_FreeSurface(copy_basic_image);
+    }
 }
 
 void xsDrawImageScaledTo(xsImage* image, xsVec2f pos, xsVec2f new_size, xsImage* target) {
-    SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, new_size.x, new_size.y};
-    unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
+    if (image != NULL || target != NULL) {
+        SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, new_size.x, new_size.y};
+        unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
 
-    SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
-    SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
-    SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
+        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+        SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
+        SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
 
-    SDL_BlitScaled(copy_basic_image, NULL, target->image, &dstrect);
+        SDL_BlitScaled(copy_basic_image, NULL, target->image, &dstrect);
 
-    SDL_FreeSurface(copy_basic_image);
+        SDL_FreeSurface(copy_basic_image);
+    }
 }
 
 void xsFreeImage(xsImage* image) {

@@ -5,6 +5,7 @@
 #include <UI_elements/xsButton.h>
 #include <xsCore.h>
 #include <xsUtils.h>
+#include <xsImage.h>
 #include <xsFont.h>
 #include <xsConstants.h>
 
@@ -34,6 +35,8 @@ xsButton* xsCreateButton(xsCore *core, xsVec2f position, xsVec2f size, xsColor c
 
     btn->font = NULL;
 
+    btn->image = NULL;
+
     btn->clicked = 0;
     btn->_was_clicked = 0;
 
@@ -58,6 +61,14 @@ void xsDrawButtonBody(xsButton* button) {
                     lroundf(button->size.x*2.f),lroundf(button->size.y*2.f)
             },
             button->color
+    );
+}
+
+void xsDrawButtonImage(xsButton* button) {
+    xsDrawImageScaled(
+        button->image,
+        (xsVec2f){button->position.x-button->size.x, button->position.y-button->size.y},
+        (xsVec2f){button->size.x*2.f, button->size.y*2.f}
     );
 }
 
@@ -153,7 +164,9 @@ void xsUpdateButtonState(xsButton* button, int interaction_starter) {
 
 
 void xsFreeButton(xsButton *button) {
+    printf("\nINFO: the xsButton is getting freed\n");
     xsFreeFont(button->font);
+    xsFreeImage(button->image);
     free(button);
-    printf("INFO: the xsButton was freed successfully\n");
+    printf("INFO: the xsButton was freed successfully\n\n");
 }

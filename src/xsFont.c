@@ -4,10 +4,14 @@
 
 
 #include <xsFont.h>
+#include <xsImage.h>
 #include <xsConstants.h>
 
 #include <SDL.h>
 #include <SDL_ttf.h>
+
+#include <stdio.h>
+#include <stdlib.h>
 
 xsFont* xsCreateFont(xsCore *core, const char *path_to_ttf, int size, xsColor color, enum xsFontDrawMode mode) {
     xsBasicFont *bFont = (xsBasicFont*)TTF_OpenFont(path_to_ttf, size);
@@ -109,7 +113,7 @@ char xsDrawFontScaled(xsFont *font, const char *text, xsVec2f position, xsVec2f 
     return 0;
 }
 
-char xsFontGetTextImage(xsFont *font, const char *text) {
+xsImage* xsFontGetTextImage(xsFont *font, const char *text) {
     SDL_Surface* text_surf;
     switch (font->draw_mode) {
         case XSUI_FONT_SOLID:
@@ -134,11 +138,20 @@ char xsFontGetTextImage(xsFont *font, const char *text) {
     }
     if (text_surf == NULL) {
         printf("ERROR: failed create text surface from this text %s err: %s", text, SDL_GetError());
-        return 1;
+        return NULL;
     }
 
-    SDL_FreeSurface(text_surf);
-    return 0;
+    xsImage* text_image = malloc(sizeof(xsImage));
+
+    text_image->core = font->core;
+
+    text_image->image = text_surf;
+    text_image->w = text_surf->w;
+    text_image->h = text_surf->h;
+
+    text_image->color_key = (xsColor){0, 0, 0, 0};
+
+    return text_image;
 }
 
 void xsFreeFont(xsFont *font) {

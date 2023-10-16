@@ -6,6 +6,7 @@
 #define XSUILIB_XSBUTTON_H
 
 #include <xsTypes.h>
+#include <xsImage.h>
 #include <xsFont.h>
 
 typedef struct xsCore xsCore;
@@ -48,6 +49,8 @@ typedef struct xsButton {
 
     xsFont *font;
 
+    xsImage* image;
+
     char clicked;
     char _was_clicked;
 
@@ -60,6 +63,7 @@ typedef struct xsButton {
 xsButton* xsCreateButton(xsCore *core, xsVec2f position, xsVec2f size, xsColor color, unsigned int flags);
 
 void xsDrawButtonBody(xsButton* button);
+void xsDrawButtonImage(xsButton* button);
 void xsDrawButtonText(xsButton *button, const char* text, char scaled);
 
 void xsUpdateButtonState(xsButton* button, int interaction_starter);
