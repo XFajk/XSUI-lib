@@ -54,7 +54,7 @@ xsButton* xsCreateButton(xsCore *core, xsVec2f position, xsVec2f size, xsColor c
 
 void xsDrawButtonBody(xsButton* button) {
     xsDrawRect(
-            button->core,
+            button->core->display,
             (xsRect) {
                     lroundf(button->position.x-button->size.x),
                     lroundf(button->position.y-button->size.y),
@@ -65,10 +65,10 @@ void xsDrawButtonBody(xsButton* button) {
 }
 
 void xsDrawButtonImage(xsButton* button) {
-    xsDrawImageScaled(
+    xsDrawImageTransformed(
         button->image,
         (xsVec2f){button->position.x-button->size.x, button->position.y-button->size.y},
-        (xsVec2f){button->size.x*2.f, button->size.y*2.f}
+        (xsVec2f){button->size.x*2.f, button->size.y*2.f}, 0.0f
     );
 }
 

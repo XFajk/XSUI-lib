@@ -9,6 +9,7 @@ add_subdirectory(test)
 add_subdirectory(external/SDL/SDL_ttf-SDL2)
 add_subdirectory(external/SDL/SDL_image-SDL2)
 add_subdirectory(external/SDL/SDL_mixer-SDL2)
+add_subdirectory(external/SDL/SDL_gfx-SDL2)
 
 add_library(XSUIlib_static STATIC
         src/xsui.c include/xsui.h src/xsCore.c include/xsCore.h
@@ -20,10 +21,11 @@ add_library(XSUIlib_static STATIC
 )
 
 # setting for the static library
-target_include_directories(XSUIlib_static PUBLIC include)
-target_link_directories(XSUIlib_static PUBLIC lib)
+target_include_directories(XSUIlib_static PRIVATE include)
+target_include_directories(XSUIlib_static PRIVATE priv_include)
+target_link_directories(XSUIlib_static PRIVATE lib)
 
-target_link_libraries(XSUIlib_static PRIVATE SDL2 SDL2main SDL2_ttf SDL2_image SDL2_mixer)
+target_link_libraries(XSUIlib_static PRIVATE SDL2 SDL2main SDL2_ttf SDL2_image SDL2_mixer SDL2_gfx)
 
 add_library(XSUIlib_shared SHARED
         src/xsui.c include/xsui.h src/xsCore.c include/xsCore.h
@@ -35,10 +37,11 @@ add_library(XSUIlib_shared SHARED
 )
 
 # setting for the shared library
-target_include_directories(XSUIlib_shared PUBLIC include)
-target_link_directories(XSUIlib_shared PUBLIC lib)
+target_include_directories(XSUIlib_shared PRIVATE include)
+target_include_directories(XSUIlib_shared PRIVATE priv_include)
+target_link_directories(XSUIlib_shared PRIVATE lib)
 
-target_link_libraries(XSUIlib_shared PRIVATE SDL2 SDL2main SDL2_ttf SDL2_image SDL2_mixer)
+target_link_libraries(XSUIlib_shared PRIVATE SDL2 SDL2main SDL2_ttf SDL2_image SDL2_mixer SDL2_gfx)
 
 add_custom_command(TARGET XSUIlib_static POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy
@@ -62,5 +65,12 @@ add_custom_command(TARGET XSUIlib_static POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy
         $<TARGET_FILE:SDL2_mixer>  # Location of the SDL2 shared library
         $<TARGET_FILE_DIR:XSUIlib_static>
+)
+
+
+add_custom_command(TARGET XSUIlib_static POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${PROJECT_SOURCE_DIR}/include"
+        $<TARGET_FILE_DIR:XSUIlib_static>/assets
 )
 

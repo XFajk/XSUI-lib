@@ -5,6 +5,7 @@
 #include <xsImage.h>
 
 #include <SDL.h>
+#include <SDL2_rotozoom.h>
 #include <SDL_image.h>
 
 #include <stdio.h>
@@ -41,6 +42,7 @@ xsImage* xsLoadImage(xsCore* core, xsColor color_key, const char* path) {
     xsImage* result = malloc(sizeof(xsImage));
     if (result == NULL) {
         printf("ERROR: failed not load image: memory allocation failed");
+        SDL_FreeSurface(image);
         return NULL;
     }
 
@@ -72,16 +74,23 @@ void xsDrawImage(xsImage* image, xsVec2f pos) {
     }
 }
 
-void xsDrawImageScaled(xsImage* image, xsVec2f pos, xsVec2f new_size) {
+void xsDrawImageTransformed(xsImage* image, xsVec2f pos, xsVec2f new_size, float angle) {
     if (image != NULL) {
-        SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, new_size.x, new_size.y};
+        SDL_Rect dstrect;
         unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
-
-        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
-        SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
+        
+        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, new_size.x, new_size.y, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+        SDL_BlitScaled(image->image, NULL, copy_basic_image, NULL);
         SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
 
-        SDL_BlitScaled(copy_basic_image, NULL, image->core->display, &dstrect);
+        if (angle != 0.0) copy_basic_image = rotozoomSurface(copy_basic_image, (double)angle, 1.0, 0);
+        
+        dstrect = (SDL_Rect){
+            (pos.x-copy_basic_image->w/2.f)+new_size.x/2.f,
+            (pos.y-copy_basic_image->h/2.f)+new_size.y/2.f,
+            copy_basic_image->w, copy_basic_image->h
+        };
+        SDL_BlitSurface(copy_basic_image, NULL, image->core->display, &dstrect);
 
         SDL_FreeSurface(copy_basic_image);
     }
@@ -103,19 +112,96 @@ void xsDrawImageTo(xsImage* image, xsVec2f pos, xsImage* target) {
     }
 }
 
-void xsDrawImageScaledTo(xsImage* image, xsVec2f pos, xsVec2f new_size, xsImage* target) {
+void xsDrawImageTransformedTo(xsImage* image, xsVec2f pos, xsVec2f new_size, float angle, xsImage* target) {
     if (image != NULL || target != NULL) {
-        SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, new_size.x, new_size.y};
+        SDL_Rect dstrect;
+        unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
+        
+        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, new_size.x, new_size.y, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+        SDL_BlitScaled(image->image, NULL, copy_basic_image, NULL);
+        SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
+
+        if (angle != 0.0) copy_basic_image = rotozoomSurface(copy_basic_image, (double)angle, 1.0, 0);
+        
+        dstrect = (SDL_Rect){
+            (pos.x-copy_basic_image->w/2.f)+new_size.x/2.f,
+            (pos.y-copy_basic_image->h/2.f)+new_size.y/2.f,
+            copy_basic_image->w, copy_basic_image->h
+        };
+        SDL_BlitSurface(copy_basic_image, NULL, target->image, &dstrect);
+
+        SDL_FreeSurface(copy_basic_image);
+    }
+}
+
+xsImage* xsGetImage(xsImage* image, xsVec2f pos) {
+    if (image != NULL) {
+        SDL_Rect dstrect = (SDL_Rect){pos.x, pos.y, image->w, image->h};
+
         unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
 
         SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, image->w, image->h, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
         SDL_BlitSurface(image->image, NULL, copy_basic_image, NULL);
         SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
 
-        SDL_BlitScaled(copy_basic_image, NULL, target->image, &dstrect);
+        SDL_BlitSurface(copy_basic_image, NULL, image->core->display, &dstrect);
 
-        SDL_FreeSurface(copy_basic_image);
+        xsImage* result = malloc(sizeof(xsImage));
+        if (result == NULL) {
+            printf("ERROR: failed not load image: memory allocation failed");
+            SDL_FreeSurface(copy_basic_image);
+            return NULL;
+        }
+
+        result->core = image->core;
+
+        result->image = copy_basic_image;
+        result->w = copy_basic_image->w;
+        result->h = copy_basic_image->h;
+
+        result->color_key = image->color_key;
+
+        return result;  
+    }   
+    return NULL;
+}
+
+xsImage* xsGetImageTransformed(xsImage* image, xsVec2f pos, xsVec2f new_size, float angle) {
+    if (image != NULL) {
+        SDL_Rect dstrect;
+        unsigned int key_color = SDL_MapRGBA(image->image->format, image->color_key.r, image->color_key.g, image->color_key.b, image->color_key.a);
+        
+        SDL_Surface* copy_basic_image = SDL_CreateRGBSurface(0, new_size.x, new_size.y, 32, 0xFF000000, 0x00FF0000, 0x0000FF00, 0x000000FF);
+        SDL_BlitScaled(image->image, NULL, copy_basic_image, NULL);
+        SDL_SetColorKey(copy_basic_image, SDL_TRUE, key_color);
+
+        if (angle != 0.0) copy_basic_image = rotozoomSurface(copy_basic_image, (double)angle, 1.0, 0);
+        
+        dstrect = (SDL_Rect){
+            (pos.x-copy_basic_image->w/2.f)+new_size.x/2.f,
+            (pos.y-copy_basic_image->h/2.f)+new_size.y/2.f,
+            copy_basic_image->w, copy_basic_image->h
+        };
+        SDL_BlitSurface(copy_basic_image, NULL, image->core->display, &dstrect);
+
+        xsImage* result = malloc(sizeof(xsImage));
+        if (result == NULL) {
+            printf("ERROR: failed not load image: memory allocation failed");
+            SDL_FreeSurface(copy_basic_image);
+            return NULL;
+        }
+
+        result->core = image->core;
+
+        result->image = copy_basic_image;
+        result->w = copy_basic_image->w;
+        result->h = copy_basic_image->h;
+
+        result->color_key = image->color_key;
+
+        return result; 
     }
+    return NULL;
 }
 
 void xsFreeImage(xsImage* image) {

@@ -26,11 +26,13 @@ void AppLoop(xsCore *core) {
 
     btn->font = xsCopyFont(basic_font);
 
+    float x = 0.0f;
+
     while (!core->exit_flag) {
         xsUpdateCoreState(core);
         core->exit_flag = xsEventQuitCore(core);
 
-        xsSetBackgroundColor(core, (xsColor){255, 255, 255, 255});
+        xsSetBackgroundColor(core->display, (xsColor){255, 255, 255, 255});
 
         // TODO: add the mouse button's constants
         xsUpdateButtonState(btn, core->mouse_state & 0b1);
@@ -38,6 +40,10 @@ void AppLoop(xsCore *core) {
         xsDrawButtonBody(btn);
         xsDrawButtonImage(btn);
         xsDrawButtonText(btn, "Hello world", 0);
+
+        xsDrawImageTransformed(btn->image, (xsVec2f){300.f, 300}, (xsVec2f){150.f, 150.f}, x);
+
+        x += 0.5f*core->frame_time;
 
         xsUpdateCoreDisplay(core);
     }
